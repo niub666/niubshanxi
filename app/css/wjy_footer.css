@@ -1,0 +1,28 @@
+*{
+	box-sizing:border-box;
+}
+footer ul{
+width: 100%;
+height: 100%;
+padding: 0.05rem 0.5rem;
+background: #003EFF;
+}
+footer ul li{
+width: 0.6rem;
+height: 100%;
+float: left;
+margin-right: 0.86rem
+}
+footer ul li:nth-child(5){
+margin-right: 0;
+}
+footer ul li a{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+footer ul li a img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}

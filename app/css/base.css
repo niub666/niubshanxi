@@ -31,10 +31,10 @@ input,textarea{
 	text-overflow:ellipsis;
 }
 .hidd-more{
-	// 容器高度必须设置为auto，不能固定高度
+	/*// 容器高度必须设置为auto，不能固定高度*/
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 3;    // 固定显示3行
+	-webkit-line-clamp: 3;    //固定显示3行
 	overflow: hidden;
 }
 body,html{
