@@ -1,0 +1,29 @@
+#### github 代码仓库
+1. 创建个人仓库
+     1. 创建个人仓库
+     2. clong到电脑桑
+     3. 开发、文件
+     4. 提交修改
+2. gh-pages
+    1. 创建仓库
+    2. gitclone 、 切换到gh-pages分支
+    3. 提交代码靠
+
+    访问其他分支：用户名.github.com/
+* git命令
+    * cd 进入项目
+    * git clone 网址 ---- 【克隆】
+    * git branch  ----- 【查看分支】
+    * git branch  分支名 ----- 【创建分支】
+    * git checkout 分支名 ----- 【切换分支】
+    * git status  ----- 【查看工作区，有哪些修改】
+    * git add 文件名 ----- 【选中某个文件上传至暂存盘】
+    * git add .   -----  【选中所有文件上传至暂存盘】
+    * git commit -m  '说明 ' ------  【上传时的注释说明】
+    * git push ----- 【将暂存盘中的文件上传至服务器】
+    * git push origin 分支名   ---- 【提交到其他分支】
+    * git pull  ------ 【从服务器更新内容】
+    * git merge 分支名  ------【用当前分支 合并 指定名称分支】
+    * git branch -d 分支名   ---------【删除分支】
+git clone  git pull   git add .    git commit -m  '说明'  
+git push    git pull
