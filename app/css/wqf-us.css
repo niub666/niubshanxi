@@ -1,0 +1,138 @@
+﻿header .head_icon2 {
+  background: url(../images/wqf-more.png) no-repeat 100% 100% / cover;
+}
+.head {
+  background: url(../images/wqf-headbg2.png) no-repeat 100% 100% / cover;
+  height: 3.41rem;
+  position: relative;
+}
+.head .bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(25, 25, 25, 0.38);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.head .head_cont {
+  position: absolute;
+  left: 50%;
+  margin-left: -1.78rem;
+  bottom: .44rem;
+  z-index: 1;
+  width: 3.56rem;
+  height: auto;
+  color: #fff;
+  text-align: center;
+}
+.head .head_cont .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head .head_cont .top .friends:nth-child(1) img {
+  width: .5rem;
+  height: .41rem;
+}
+.head .head_cont .top .friends:nth-child(3) img {
+  width: .45rem;
+  height: .47rem;
+}
+.head .head_cont .top .tou {
+  width: .96rem;
+  height: .96rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  overflow: hidden;
+  flex: none;
+  background: url(../images/wqf-tou.png) no-repeat center center / cover;
+}
+.head .head_cont > p {
+  margin: .2rem 0 .43rem;
+}
+.head .head_cont .a_box {
+  display: flex;
+}
+.head .head_cont .a_box a {
+  width: 1.62rem;
+  height: .44rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+  border-radius: .25rem;
+  color: #3867FA;
+}
+.head .head_cont .a_box a img {
+  margin-right: .14rem;
+}
+.head .head_cont .a_box a:nth-child(1) {
+  margin-right: .32rem;
+}
+.head .head_cont .a_box a:nth-child(1) img {
+  width: .24rem;
+  height: .25rem;
+}
+.head .head_cont .a_box a:nth-child(2) {
+  margin-right: .32rem;
+}
+.head .head_cont .a_box a:nth-child(2) img {
+  width: .25rem;
+  height: .21rem;
+}
+.cont_box {
+  padding: .32rem;
+}
+.cont_box > p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: .32rem;
+}
+.cont_box .cont {
+  display: block;
+  width: 6.86rem;
+  height: 3.12rem;
+  padding: .2rem .14rem;
+  box-sizing: border-box;
+  color: #E3DEDE;
+  position: relative;
+  margin-bottom: .24rem;
+  box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.2);
+  background: url(../images/wqf-ji1.png) no-repeat 100% 100% / cover;
+}
+.cont_box .cont p img {
+  width: .18rem;
+  heihgt: .18rem;
+}
+.cont_box .cont .mess {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: .2rem;
+}
+.cont_box .cont .mess > div {
+  margin-right: .1rem;
+}
+.cont_box .cont .mess > div img {
+  margin-right: .07rem;
+}
+.cont_box .cont .mess > div:nth-child(1) img {
+  width: .3rem;
+  height: .17rem;
+}
+.cont_box .cont .mess > div:nth-child(2) img {
+  width: .24rem;
+  height: .21rem;
+}
+.cont_box .cont .mess > div:nth-child(3) img {
+  width: .21rem;
+  height: .21rem;
+}
+.cont_box .cont:nth-child(2) {
+  background: url(../images/wqf-ji2.png) no-repeat 100% 100% / cover;
+}
+.cont_box .cont:nth-child(3) {
+  background: url(../images/wqf-ji3.png) no-repeat 100% 100% / cover;
+}

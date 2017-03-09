@@ -1,0 +1,177 @@
+@import url(base.css);
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.yxm-box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	/*overflow: hidden;*/
+}
+/*头部*/
+	.yxm-nav{
+		width: 100%;
+		height: 0.88rem;
+		background: #3867fa;
+		position: relative;
+	}
+	.yxm-nav .yxm-nav-back{
+		width: 0.88rem;
+		height: 100%;
+		float: left;
+		margin-left: 0.1rem;
+	}
+	.yxm-nav .yxm-nav-back a{
+		display: block;
+		width: 0.65rem;
+		height: 0.65rem;
+		margin-top: 0.2rem;
+	}
+	.yxm-nav .yxm-nav-back a img{
+		width: 100%;
+		display: block;
+	}
+	.yxm-nav .yxm-nav-title{
+		height: 0.48rem;
+		width: 4.5rem;
+		position: absolute;
+		top: 0.2rem;
+		left: 1.49rem;
+		right: 2.5rem;
+		background: #fff;
+		border-radius: 0.5rem;
+	}
+	.yxm-nav .yxm-nav-title span{
+		// width: 15%;
+		height: 100%;
+		float: left;
+	}
+	.yxm-nav .yxm-nav-title span img{
+		width: 100%;
+		display: block;
+	}
+	.yxm-nav .yxm-nav-title input{
+		width: 75%;
+		height: 0.48rem;
+		display: block;
+		float: left;
+		border: none;
+		outline: none;
+	}
+
+
+/*导航栏*/
+	.yxm-xxk{
+		width: 100%;
+		height: 0.92rem;
+	}
+	.yxm-xxk .yxm-xxk-l{
+		width: 50%;
+		height: 100%;
+		float: left;
+		background: #2b5eff;
+	}
+	.yxm-xxk .yxm-xxk-l a{
+		width: 100%;
+		height: 100%;
+		display: block;
+		color: #fff;
+		font-size: 0.26rem;
+		line-height: 0.92rem;
+		text-align: center;
+	}
+	.yxm-xxk .yxm-xxk-r{
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+	.yxm-xxk .yxm-xxk-r a{
+		width: 100%;
+		height: 100%;
+		display: block;
+		color: #000;
+		font-size: 0.26rem;
+		line-height: 0.92rem;
+		text-align: center;
+	}
+
+
+/*右侧楼层条*/
+	.yxm-lc{
+		position: fixed;
+		width: 0.28rem;
+		background: #3867fa;
+		right: 0.3rem;
+		top: 2rem;
+		border-radius: 0.5rem;
+	}
+	.yxm-lc p{
+		color: #fff;
+		font-size: 0.26rem;
+		text-align: center;
+	}
+
+	
+/*列表*/
+	.yxm-list{
+		width: 97%;
+		height: 0.6rem;
+	}
+	.yxm-list p{
+		width: 50%;
+		float: left;
+		color: #000;
+		font-size: 0.22rem;
+		line-height: 0.64rem;
+	}
+	.yxm-list a{
+		width: 0.24rem;
+		height: 0.24rem;
+		display: block;
+		float: left;
+		margin: 0.2rem 0.24rem;
+	}
+	.yxm-list a img{
+		width: 97%;
+		display: block;
+	}
+
+/*地点*/
+	.yxm-didi{
+		padding: 0 0 0 0.5rem;
+		margin-top: 0.09rem;
+		width: 93%;
+		height: 0.7rem;
+	}
+	.yxm-didi .yxm-dd-x{
+		width: 1.2rem;
+		height: 0.5rem;
+		float: left;
+		margin: 0.1rem 0.15rem;
+		background-image: url(../images/yxm-bk.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		color: #ccc;
+		text-align: center;
+		line-height: 0.5rem;
+		font-size: 0.2rem;
+	}
+	.yxm-didi .yxm-dd-x a{
+		color: #b3b3b3;
+	}
+
+
+	.yxm-zimu{
+		width: 90%;
+		height: 0.4rem;
+		font-size: 0.2rem;
+		color: #ccc;
+		line-height: 0.4rem;
+		text-align: left;
+		margin-top: 0.1rem;
+		margin-left: 0.7rem;
+	}
+
+

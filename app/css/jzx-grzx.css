@@ -1,0 +1,107 @@
+*{
+    font-size: 16px;
+}
+header{
+    height:.88rem;background: #3B67FA;width: 100%;text-align: center;line-height: .88rem;
+    font-size: .34rem;font-weight: bold;color:#fff;position: relative;
+}
+header b{
+    display: inline-block;margin: 0 .07rem;vertical-align: middle;
+    width: .03rem;height: 0.03rem;border-radius: 50%;background: #fff;box-shadow: .02rem .02rem .02rem #3B5FC0;
+}
+header i{
+    display: inline-block;margin: 0 .07rem;vertical-align: middle;
+    width: .05rem;height: .05rem;border-radius: 50%;background: #fff;box-shadow: .03rem .03rem .03rem #3B5FC0;
+}
+header span{
+    display: inline-block;margin: 0 .07rem;vertical-align: middle;
+    width: .07rem;height: .07rem;border-radius: 50%;background: #fff;box-shadow: .05rem .05rem .05rem #3B5FC0;
+}
+header a{
+    display: inline-block;width: .44rem;height: .44rem;float: right;
+    position: absolute;right:.24rem;top:.22rem;
+}
+header img{
+    width:100%;
+}
+
+/*banner*/
+.jzx-banner{
+    position: relative;font-size: 0;
+}
+.jzx-banner img{
+    width: 100%;
+}
+.jzx-banner .jzx-mask{
+    width: 100%;height: 100%;background: rgba(0,0,0,.52);
+    position: absolute;top:0;left: 0;
+}
+.jzx-banner .jzx-mask .jzx-box{
+    margin:0.7rem auto .3rem;width: 3.88rem;height: 1.18rem;
+    display: flex;justify-content: space-between;
+}
+.jzx-banner .jzx-mask .jzx-box .jzx-head{
+    width: 1.14rem;border:.02rem solid #fff;border-radius: 50%;height: 1.14rem;
+    margin:0 auto;background: url("../images/jzx/jzx-grzx-head.jpg") no-repeat;
+    background-size: 1.18rem;
+}
+.jzx-friend,.jzx-follow{
+    width: .5rem;height: auto;text-align: center;
+}
+.jzx-mask h3{
+    margin-bottom: .3rem;font-size: .28rem;font-weight: bolder;color: #fff;text-align: center;
+}
+.jzx-mask h4{
+    font-size: .2rem;font-weight: bolder;color: #fff;text-align: center;
+}
+
+/*标题*/
+.jzx-title{
+    height: 1.02rem;width: 100%;text-align: center;position: relative;overflow: hidden;
+}
+.jzx-title p{
+    font-size: .26rem;font-weight: bolder;margin-top: .4rem;height: .3rem;
+    background: url("../images/jzx/jzx-grzx-yun.png") no-repeat center;line-height: .1rem;
+}
+
+/*景区展示*/
+.jzx-show{
+    width: 6.88rem;height: 3.14rem;border-radius: .1rem;
+    background: url("../images/jzx/jzx-grzx-qjdy.png")no-repeat;
+    background-size:contain;margin:0 auto;position: relative;margin-bottom: .24rem;
+}
+.jzx-masks{
+    width: 100%;height: 100%;background: rgba(0,0,0,.52);
+    position: absolute;top:0;left: 0;border-radius: .1rem;
+}
+.jzx-masks .jzx-time{
+    margin-left: .24rem;width: auto;margin-top: .35rem;color: #fff;
+}
+.jzx-masks .jzx-time p{
+    font-size: .3rem;font-weight: bolder;margin-bottom: .18rem;
+}
+.jzx-masks .jzx-time i{
+    display: inline-block;background: url(../images/jzx/jzx-grzx-history.png) center/cover;width: .18rem;height: .18rem;
+}
+.jzx-masks .jzx-time span{
+    margin-right:.18rem;
+}
+.jzx-masks .jzx-menu{
+    position: absolute;left: .24rem;bottom: .3rem;color: #fff;
+}
+.jzx-masks .jzx-menu i{
+    margin-right: .1rem;
+}
+.jzx-masks .jzx-menu span{
+    margin-right: .18rem;
+}
+.jzx-masks .jzx-menu i:nth-of-type(1) {
+    display: inline-block;background: url(../images/jzx/jzx-grzx-look.png) center/cover;width: .3rem;height: .17rem;
+}
+.jzx-masks .jzx-menu i:nth-child(3) {
+    display: inline-block;background: url(../images/jzx/jzx-grzx-goods.png) center/cover;width: .24rem;height: .21rem;
+}
+.jzx-masks .jzx-menu i:nth-child(5) {
+    display: inline-block;background: url(../images/jzx/jzx-grzx-message.png) center/cover;width: .21rem;height: .21rem;
+}
+

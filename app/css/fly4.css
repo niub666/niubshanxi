@@ -1,0 +1,230 @@
+@import url(base.css);
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.yxm-box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/*头部*/
+	.yxm-nav{
+		width: 100%;
+		height: 0.88rem;
+		background: #3867fa;
+	}
+	.yxm-nav .yxm-nav-back{
+		width: 0.88rem;
+		height: 100%;
+		float: left;
+		margin-left: 0.1rem;
+	}
+	.yxm-nav .yxm-nav-back a{
+		display: block;
+		width: 0.65rem;
+		height: 0.65rem;
+		margin-top: 0.2rem;
+	}
+	.yxm-nav .yxm-nav-back a img{
+		width: 100%;
+		display: block;
+	}
+	.yxm-nav .yxm-nav-title{
+		height: 100%;
+		width: 3rem;
+		margin: 0 auto;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-l{
+		width: 0.6rem;
+		height: 100%;
+		float: left;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-l img{
+		display: block;
+		margin-top: 0.33rem;
+		width: 100%;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-z{
+		width: 1.8rem;
+		height: 100%;
+		float: left;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-z h3{
+		font-size: 0.34rem;
+		color: #fff;
+		line-height: 0.88rem;
+		text-align: center;
+	}
+
+	.yxm-nav .yxm-nav-title .yxm-title-r{
+		width: 0.6rem;
+		height: 100%;
+		float: right;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-r img{
+		display: block;
+		margin-top: 0.33rem;
+		width: 100%;
+	}
+
+/*时间选择*/
+	.yxm-time-box{
+		width: 6.82rem;
+		height: auto;
+		padding: 0 0.34rem;
+	}
+
+	/*天数选择*/
+		.yxm-days{
+			width: 100%;
+			height: 0.7rem;
+		}
+		.yxm-days .yxm-days-item{
+			width: 2.05rem;
+			height: 0.7rem;
+			float: left;
+		}
+		.yxm-days .yxm-days-item a{
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+		.yxm-days .yxm-days-item a img{
+			width: 100%;
+			display: block;
+		}
+		.yxm-days .yxm-days-item:nth-child(2){
+			margin: 0 0.33rem;
+			position: relative;
+		}
+		.yxm-days .yxm-days-item .yxm-item-img img{
+			width: 100%;
+			display: block;
+		}
+		.yxm-days .yxm-days-item .yxm-item-z{
+			font-size: 0.24rem;
+			width: 1.2rem;
+			position: absolute;
+			top: 0.22rem;
+			bottom: 0.22rem;
+			left: 0.45rem;
+			right: 0.45rem;
+			color: #3867fa;
+		}
+
+
+	/*机票选择*/
+		.yxm-flays{
+			width: 100%;
+			height: 2.6rem;
+			margin-top: 0.22rem;
+			background-image: url(../images/yxm-bg1.png);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			position: relative;
+		}
+		.yxm-flays .yxm-flay1{
+			position: absolute;
+		}
+		.yxm-flays .yxm-flay1:nth-child(1){
+			top: 0.8rem;;
+			left: 0.38rem;
+			font-size: 0.24rem;
+			color: #fff;
+		}
+		.yxm-flays .yxm-flay1:nth-child(2){
+			bottom: 0.76rem;;
+			left: 0.38rem;
+			font-size: 0.24rem;
+			color: #fff;
+		}
+		.yxm-flays .yxm-flay1:nth-child(3){
+			top: 0.2rem;;
+			left: 3.03rem;
+			font-size: 0.24rem;
+			color: #000;
+		}
+		.yxm-flays .yxm-flay1:nth-child(4){
+			top: 0.2rem;;
+			right: 0.9rem;
+			font-size: 0.24rem;
+			color: #000;
+		}
+		.yxm-flays .yxm-flay1:nth-child(5){
+			top: 0.83rem;;
+			right: 2.7rem;
+			font-size: 0.24rem;
+			color: #000;
+		}
+		.yxm-flays .yxm-flay1:nth-child(6){
+			top: 0.83rem;;
+			right: 0.58rem;
+			font-size: 0.24rem;
+			color: #000;
+		}
+		.yxm-flays .yxm-flay1:nth-child(7){
+			top: 1.4rem;;
+			right: 2.7rem;
+			font-size: 0.24rem;
+			color: #ccc;
+		}
+		.yxm-flays .yxm-flay1:nth-child(8){
+			top: 1.4rem;;
+			right: 0.7rem;
+			font-size: 0.24rem;
+			color: #ccc;
+		}
+		.yxm-flays .yxm-flay1:nth-child(9){
+			bottom: 0.2rem;;
+			left: 2.9rem;
+			font-size: 0.24rem;
+			color: #000;
+		}
+		.yxm-flays .yxm-flay1:nth-child(10){
+			bottom: 0.2rem;;
+			right: 0.35rem;
+			font-size: 0.24rem;
+			color: #ff1f45;
+		}
+	
+	/*底部*/
+		.yxm-bottom{
+			width: 6.82rem;
+			height: 0.98rem;
+			padding: 0 0.34rem;
+			background: #003eff;
+			position: fixed;
+			bottom: 0;
+			display: flex;
+		}
+		.yxm-bottom .yxm-b:nth-child(2){
+			color: #ffdf00;
+		}
+		.yxm-bottom .yxm-b{
+			flex: 0 1 25%;
+			flex-grow: 1;
+			flex-direction: column;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: #000;
+			font-size: 0.2rem;
+			padding: 0.1rem;
+			position: relative;
+		}
+		.yxm-bottom .yxm-b a{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+		}
+		.yxm-bottom .yxm-b img{
+			display: block;
+			width: 0.55rem;
+		}
+		
+
+

@@ -1,0 +1,429 @@
+@import url(base.css);
+.qqg_state{
+	width: 100%;
+	height: .88rem;
+	box-sizing: border-box;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	background: #3867FA;
+	padding-left: .1rem;
+	padding-right: .12rem;
+}
+.qqg_more{
+	background: url(../images/qqg_more.png) no-repeat;
+	background-size: cover;
+	width: .63rem;
+	height: .65rem;
+	margin-top: .2rem;
+}
+.qqg_city .qqg_left{
+	background: url(../images/qqg_left.png) no-repeat;
+	background-size: cover;
+	width: .56rem;
+	height: .22rem;
+	margin-top: .1rem;
+	margin-left: 0.5rem;
+}
+.qqg_city{
+	box-sizing: border-box;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+}
+.qqg_city p{
+	font-family: "微软雅黑";
+	font-size: .3rem;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: .88rem;
+	padding-left: .1rem;
+	padding-right: .1rem;
+}
+.qqg_city .qqg_right{
+	background: url(../images/qqg_right.png) no-repeat;
+	background-size: cover;
+	width: .56rem;
+	height: .22rem;
+	line-height: .88rem;
+	text-align: center;
+	margin-top: .1rem;
+}
+.qqg_filter{
+	background: url(../images/qqg_filter.png) no-repeat;
+	background-size: cover;
+	width: .63rem;
+	height: .65rem;
+	margin-top: .2rem;
+}
+.qqg_floor{
+	width: 6.86rem;
+	box-shadow: 0 0 2px 2px #F2F2F2;
+	margin-left: .32rem;
+	margin-top: .3rem;
+	border-radius: 6px;
+	position: relative;
+	padding-bottom: .2rem;
+	height: 4rem;
+}
+.qqg_picture{
+	position: absolute;
+	left: -0.2rem;
+	top: -0.4rem;
+}
+.qqg_picture img{
+	width: .8rem;
+}
+.qqg_content{
+	width: 5.8rem;
+	/*background-color: red;*/
+	margin-top: 0.1rem;
+	margin-left: .6rem;
+	float: left;
+	border-bottom: 1px dashed #ccc;
+}
+.qqg_content .qqg_head{
+	float: left;
+	width: 5.8rem;
+	height: .4rem;
+}
+.qqg_content .qqg_name{
+	float: left;
+}
+.qqg_content .qqg_name p{
+	font-size: .26rem;
+	color: #000;
+}
+.qqg_content .qqg_details{
+	background: url(../images/qqg_details.png) no-repeat;
+	width: .24rem;
+	height: .04rem;
+	float: right;
+	margin-top: .15rem;
+	background-size: cover;
+}
+.qqg_content .qqg_traval{
+	float: left;
+}
+.qqg_content .qqg_traval .qqg_logo{
+	background: url(../images/qqg_traval.png) no-repeat;
+	background-size: cover;
+	float: left;
+	width: .21rem;
+	height: .22rem;
+	margin-top: .05rem;
+}
+.qqg_content .qqg_traval .qqg_date{
+	float: left;
+	margin-left: .1rem;
+}
+.qqg_content .qqg_traval .qqg_date p{
+	font-family: "微软雅黑";
+	font-size: .22rem;
+	text-align: left;
+	color: #A2A2A2;
+}
+.qqg_content .qqg_talk{
+	float: left;
+}
+.qqg_content .qqg_talk p{
+	font-family: "微软雅黑";
+	font-size: .26rem;
+	text-align: left;
+	color: #6A6A6A;
+}
+.qqg_content .qqg_photo{
+	float: left;
+	padding-top: .05rem;
+}
+.qqg_content .qqg_photo img{
+	width: 3.6rem;
+}
+.qqg_foot{
+	width: 2.6rem;
+	height: .5rem;
+	float: right;
+	margin-top: .1rem;
+}
+.qqg_foot .qqg_message{
+	background: url(../images/qqg_message.png);
+	background-size: cover;
+	width: .45rem;
+	height: .45rem;
+	float: left;
+}
+.qqg_foot .qqg_message a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+.qqg_foot .qqg_xinxi{
+	margin-left: 0.05rem;
+	float: left;
+	margin-top: 0.05rem;
+
+}
+.qqg_foot .qqg_xinxi p{
+	font-family: "微软雅黑";
+	font-size: .22rem;
+	color: #C6C6C6;
+	margin-left: 0.05rem;
+	
+}
+.qqg_foot .qqg_comments{
+
+	background: url(../images/qqg_comments.png);
+	background-size: cover;
+	width: .45rem;
+	height: .45rem;
+	float: left;
+}
+.qqg_foot .qqg_comments a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+.qqg_foot .qqg_neirong{
+	float: left;
+	margin-left: 0.05rem;
+
+	margin-top: 0.05rem;
+}
+.qqg_foot .qqg_neirong p{
+	font-family: "微软雅黑";
+	font-size: .24rem;
+	color: #C6C6C6;
+}
+.qqg_write{
+	background: url(../images/qqg_write.png) no-repeat;
+	background-size: cover;
+	width: 1.05rem;
+	height: 1.07rem;
+	position: fixed;
+	left: 3.25rem;
+	bottom:.1rem;
+}
+
+
+.qqg_more1{
+	background: url(../images/qqg_more1.png) no-repeat;
+	background-size: cover;
+	width: .63rem;
+	height: .63rem;
+	margin-top: .1rem;
+}
+.qqg_sex{
+	width: 5.7rem;
+	height: 4rem;
+	border-bottom: 1px solid #EEEEEE;
+	margin-left: .9rem;
+}
+.qqg_sex .qqg_xingbie{
+	width: 2rem;
+	margin: 0 auto;
+	/*background-color: red;*/
+	padding-top: .5rem;
+}
+.qqg_sex .qqg_xingbie p{
+	font-family: "微软雅黑";
+	font-size: .26rem;
+	margin-left: 0.4rem;
+	color: #333333;
+	float: left;
+}
+.qqg_sex .qqg_xingbie span{
+	font-family: "微软雅黑";
+	font-size: .22rem;
+	color: #828282;
+	display: block;
+	float: left;
+	margin-left: .1rem;
+}
+.qqg_sex .qqg_touxiangbox{
+	width: 100%;
+	float: left;
+}
+.qqg_sex .qqg_touxiangbox .qqg_touxiangleft{
+	width: 3rem;
+	float: left;
+	margin-left: .5rem;
+}
+.qqg_sex .qqg_touxiangbox .qqg_touxiangleft div{
+	padding-top: .5rem;
+}
+.qqg_sex .qqg_touxiangbox .qqg_touxiangleft div img{
+	width:1.5rem;
+}
+.qqg_sex .qqg_touxiangbox .qqg_touxiangleft p{
+	font-family: "微软雅黑";
+	font-size: .22rem;
+	color: #343434;
+	display: block;
+	/*float: left;*/
+	margin-left: .5rem;
+}
+.qqg_sex .qqg_touxiangbox .qqg_touxiangright{
+	width: 2rem;
+	float: left;
+	/*margin-left: .5rem;*/
+}
+.qqg_sex .qqg_touxiangbox .qqg_touxiangright div{
+	padding-top: .55rem;
+}
+.qqg_sex .qqg_touxiangbox .qqg_touxiangright div img{
+	width:1.5rem;
+}
+.qqg_sex .qqg_touxiangbox .qqg_touxiangright p{
+	font-family: "微软雅黑";
+	font-size: .22rem;
+	color: #343434;
+	display: block;
+	/*float: left;*/
+	margin-left: .6rem;
+}
+.qqg_sex .qqg_qqg1{
+	float: left;
+	width: 100%;
+	margin-top: 1.2rem;
+}
+.qqg_sex .qqg_xcrq{
+	/*float: left;*/
+	margin-left: 1.3rem;
+}
+.qqg_sex .qqg_xcrq p{
+	font-family: "微软雅黑";
+	font-size: .32rem;
+	font-weight: bold;
+	color: #343434;
+	display: block;
+	/*float: left;*/
+	margin-left: .6rem;
+}
+.qqg_sex .qqg_tupian1{
+	margin-left: 1rem;
+	margin-top: .5rem;
+}
+.qqg_sex .qqg_tupian1 div{
+	float: left;
+}
+.qqg_sex .qqg_tupian1 p{
+	font-family: "微软雅黑";
+	font-size: .28rem;
+	color: #343434;
+	display: block;
+	float: left;
+	margin-top: .5rem;
+	/*float: left;*/
+	margin-left: .6rem;
+}
+.qqg_queding{
+	width: 100%;
+	height: 1rem;
+	position: fixed;
+	left: 0;
+	bottom:0;
+	background: #3867FA;
+	line-height:1rem;
+	text-align: center;
+
+}
+.qqg_queding a{
+	display: block;
+	width: 100%;
+	height:100%;
+	font-family: "微软雅黑";
+	font-size: .36rem;
+	color: #fff;
+}
+.qqg_complete{
+	background: url(../images/qqg_complete.png) no-repeat;
+	background-size: cover;
+	width: .63rem;
+	height: .64rem;
+	margin-top: .2rem;
+}
+.qqg_input1{
+	width:6.8rem;
+	height: .88rem;
+	margin-left: .3rem;
+	border:0;
+	box-shadow: 0 0 0.05rem 0.03rem #c8bbfa;
+	border-radius:0.1rem;
+	font-size: 0.3rem;
+}
+.qqg_shuru{
+	width:6.8rem;
+	height:auto;
+	margin-left: .3rem;
+	/*box-shadow: 0 0 0.05rem 0.03rem #c8bbfa;*/
+	border-radius:0.1rem;
+	margin-top: .4rem;
+	font-size: .28rem;
+	color: #9F9F9F;
+}
+.qqg_shuru textarea{
+	width:6.8rem;
+	height: 2rem;
+
+	border: 0;
+	box-shadow: 0 0 0.05rem 0.03rem #c8bbfa;
+	border-radius:0.1rem;
+	resize: none;
+
+	font-size: .28rem;
+	color: #9F9F9F;
+}
+.qqg_grzp{
+	width: 1.26rem;
+	height: 1.32rem;
+	border-radius:0.1rem;
+	box-shadow: 0 0 0.05rem 0.03rem #c8bbfa;
+	margin-top: .4rem;
+	margin-left: .3rem;
+	padding-top: .1rem;
+}
+.qqg_grzp .qqg_shizi{
+	background: url(../images/qqg_grzp.png) no-repeat;
+	background-size: cover;
+	width: .66rem;
+	height: .66rem;
+	margin-left: .3rem;
+	margin-top: .2rem;
+}
+.qqg_grzp a{
+	display: block;
+	font-family: "微软雅黑";
+	font-size: .24em;
+	color: #C3C3C3;
+	text-align: center;
+	margin-top: -0.03rem;
+	line-height: .4rem;
+}
+.qqg_weizhi{
+	width: 1.26rem;
+	height: .48rem;
+	border-radius:0.1rem;
+	box-shadow: 0 0 0.05rem 0.03rem #c8bbfa;
+	margin-top: .4rem;
+	margin-left: .3rem;
+	padding-top: .1rem;
+}
+.qqg_weizhi .qqg_ditu{
+	background: url(../images/qqg_location.png) no-repeat;
+	background-size: cover;
+	width: .26rem;
+	height: .31rem;
+	margin-left: .1rem;
+	margin-top: .05rem;
+	float: left;
+}
+.qqg_weizhi a{
+	font-family: "微软雅黑";
+	display: block;
+	font-size: .24em;
+	color: #C3C3C3;
+	text-align: center;
+	line-height: .4rem;
+	margin-top: -0.05rem;
+}

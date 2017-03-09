@@ -1,0 +1,179 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #F5F5F5;
+}
+.header {
+  width: 100%;
+  height: 0.88rem;
+  background: #3867FA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .prev {
+  width: 0.63rem;
+  height: 0.64rem;
+  display: inline-block;
+  background: url("../images/lsx/prev.png") no-repeat 100% 100% / cover;
+  margin-left: 0.2rem;
+}
+.header .next {
+  width: 0.55rem;
+  height: 0.61rem;
+  display: inline-block;
+  background: url("../images/lsx/next.png") no-repeat 100% 100% / cover;
+  margin-right: 0.2rem;
+}
+.header span {
+  display: inline-block;
+  width: 2.77rem;
+  height: 0.43rem;
+  background: url("../images/lsx/title.png") no-repeat 100% 100% / cover;
+}
+.list {
+  width: 6.86rem;
+  height: 2.47rem;
+  background: #EFEFEF;
+  border-radius: 5px;
+  margin: 0.25rem auto 0;
+}
+.list .top {
+  width: 100%;
+  height: 2.14rem;
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+}
+.list .top .left {
+  flex: 0 0 auto;
+  width: 1.8rem;
+  height: 1.9rem;
+  border-radius: 5px;
+  background: #000;
+  background: url("../images/lsx/tu.png") no-repeat 100% 100% / cover;
+}
+.list .top .right {
+  flex: 0 1 auto;
+}
+.list .top .right p {
+  height: 1.9rem;
+  padding: 0.15rem;
+  font-size: 0.28rem;
+  color: #C1C1C1;
+  overflow: hidden;
+}
+.list .bottom {
+  width: 100%;
+  height: 0.33rem;
+  border-radius: 0 0 5px 5px;
+}
+.list .bottom .time {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 0.33rem;
+  color: #333333;
+  float: left;
+  background: url("../images/lsx/more.png") no-repeat;
+  background-size: 0.13rem 0.21rem;
+  background-position: 90% 0.08rem;
+  font-size: 0.28rem;
+}
+.list .bottom .date {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 0.33rem;
+  font-size: 0.28rem;
+  float: left;
+  background: url("../images/lsx/more.png") no-repeat;
+  background-size: 0.13rem 0.21rem;
+  background-position: 90% 0.08rem;
+  color: #333;
+}
+.serch {
+  width: 6.86rem;
+  height: 0.85rem;
+  border: 0;
+  position: relative;
+  margin: 0.25rem auto 0;
+}
+.serch .title {
+  width: 6.66rem;
+  height: 0.55rem;
+  padding: 0.1rem;
+  border-radius: 5px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+}
+.serch .right {
+  position: absolute;
+  top: 0.20rem;
+  right: 0;
+  display: inline-block;
+  width: 0.36rem;
+  height: 0.36rem;
+  padding-right: 0.2rem;
+}
+.serch .right img {
+  width: 100%;
+  height: 100%;
+}
+.map {
+  width: 6.86rem;
+  height: 2.77rem;
+  border-radius: 5px;
+  margin: 0.25rem auto 0;
+  background: url("../images/lsx/map.png") no-repeat center center / cover;
+  border: 0;
+  position: relative;
+}
+.map .img {
+  width: 2.33rem;
+  height: 2.33rem;
+  position: absolute;
+  top: 0.1rem;
+  left: 1.2rem;
+}
+.map .img img {
+  width: 100%;
+  height: 100%;
+}
+.ping {
+  width: 6.86rem;
+  height: 0.9rem;
+  margin: 0.25rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ping .left {
+  display: flex;
+  align-items: center;
+}
+.ping .left img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.ping .left span {
+  display: inline-block;
+  margin-left: 0.2rem;
+  font-size: 0.3rem;
+  color: #333;
+}
+.ping .right {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.ping .right img {
+  width: 100%;
+  height: 100%;
+}

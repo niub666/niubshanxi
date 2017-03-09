@@ -1,0 +1,207 @@
+.zyh_top{
+	width: 100%;
+	background: #3867FA;
+	margin: 0 auto;
+	height: 0.88rem;
+}
+.zyh_top .zyh_tops{
+	width:100%;
+	height: 100%;
+	margin:0 auto;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.88rem;
+	position: relative;
+}
+.zyh_top .zyh_tops img{
+	height: 35%;
+	vertical-align: middle;
+}
+.zyh_top .zyh_sou{
+	width: 0.36rem;
+	height: 0.36rem;
+	position: absolute;
+	right:0.2rem;
+	top:0.25rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+}
+.zyh_top .zyh_sou .zyh_suo{
+	display: block;
+	width: 0.24rem;
+	height: 0.24rem;
+	margin: 0 auto;
+	margin-top: 0.06rem;
+	background: red;
+	background: url(../images/zyh_img/zyh_02.png)no-repeat center center/cover;
+}
+/*头部结束*/
+/*推荐开始*/
+.zyh_groom{
+	width: 100%;
+	height: 0.85rem;
+	box-sizing:border-box;
+	margin: 0 auto;
+	padding: 0.18rem 0.28rem 0.28rem 0.26rem;
+	position:relative;
+}
+.zyh_groom  .zyh_item{
+	width: 1.25rem;
+	height: 0.58rem;
+	background: url(../images/zyh_img/zyh_6.png)no-repeat center center/cover;
+	float: left;
+	margin-right:0.23rem;
+	position: relative;
+}
+.zyh_groom  .zyh_item img{
+	position: absolute;
+	top:0.2rem;
+	left:0.2rem;
+	width: 25%;
+}
+.zyh_groom  .zyh_item span{
+	font-size: 10px;
+	color: #000;
+	position: absolute;
+	top:0.13rem;
+	right:0.24rem;
+}
+.zyh_groom .zyh_jia{
+	width: 1.25rem;
+	height: 0.58rem;
+	float: right;
+	background: url(../images/zyh_img/zyh_9.png)no-repeat center center/cover;
+	position: relative;
+}
+.zyh_groom .zyh_jia img{
+	position: absolute;
+	top:0.13rem;
+	left:0.5rem;
+	width: 30%;
+}
+/*推荐结束*/
+/*内容开始*/
+.zyh_nav{
+	width: 100%;
+	height: auto;
+	padding: 0 0.28rem 0 0.26rem;
+	box-sizing:border-box;
+}
+.zyh_nav .zyh_nav1{
+	display:block;
+	height: 2.5rem;
+	background: #eee;
+	overflow: auto;
+	background: url(../images/zyh_img/zyh_10.png)no-repeat center center/cover;
+	position: relative;
+}
+.zyh_nav .zyh_nav1 .zyh_left{
+	display: block;
+	width: 1.14rem;
+	height: 1.14rem;
+	background:url(../images/zyh_img/zyh_17.png)no-repeat center center/cover;
+	border-radius: 50%;
+	position: absolute;
+	top:0.3rem;
+	left:0.57rem;
+}
+.zyh_nav .zyh_nav1 .zyh_xin{
+	width: 1.35rem;
+	height: 0.25rem;
+	/*background:red;*/
+	position: absolute;
+	bottom:0.62rem;
+	left:0.5rem;
+}
+.zyh_nav .zyh_nav1 .zyh_xin img{
+	position: absolute;
+	width: 100%;
+}
+.zyh_nav .zyh_nav1 .zyh_right{
+	width: 4.4rem;
+	height: 1.55rem;
+	/*background:red;*/
+	position: absolute;
+	right:0.2rem;
+	top:0.25rem;
+}
+.zyh_nav .zyh_nav1 .zyh_right p{
+	font-size: 0.3rem;
+}
+.zyh_nav .zyh_nav1 .zyh_right .zyh_bot{
+	/*background:red;	*/
+	width: 4.4rem;
+	height: 0.35rem;
+	position: absolute;
+	bottom: 0;
+}
+.zyh_nav .zyh_nav1 .zyh_right .zyh_bot .zyh_time{
+	width: 0.35rem;
+	height: 0.35rem;
+	border:1px solid #CED3D6;
+	border-radius: 50%;
+	float: left;
+}
+.zyh_nav .zyh_nav1 .zyh_right .zyh_bot .zyh_time p{
+	font-size: 10px;
+	text-align: center;
+	color: #CED3D6;
+}
+.zyh_nav .zyh_nav1 .zyh_right .zyh_bot .zyh_go{
+	float: left;
+	width: 1.75rem;
+	height: 0.35rem;
+	margin-left: 0.2rem;
+}
+.zyh_nav .zyh_nav1 .zyh_right .zyh_bot .zyh_go p{
+	font-size: 10px;
+	text-align: center;
+	color: #999999;
+}
+.zyh_nav .zyh_nav1 .zyh_right .zyh_bot .zyh_money{
+	float: right;
+	width: 1.4rem;
+	height: 0.35rem;
+}
+.zyh_nav .zyh_nav1 .zyh_right .zyh_bot .zyh_money p{
+	font-size: 10px;
+	color: red;
+	float: left;
+	line-height: 0.35rem;
+}
+.zyh_nav .zyh_nav1 .zyh_right .zyh_bot .zyh_money b{
+	font-size: 10px;
+	color: red;
+	float: left;
+	line-height: 0.35rem;
+	margin-right: 0.1rem;
+}
+/*内容结束*/
+/*底部开始*/
+.zyh_foot{
+	width: 100%;
+	height: 0.78rem;
+	background: #003EFF;
+	position: fixed;
+	left:0;
+	bottom:0;
+	display: flex;
+	justify-content:space-around;
+	padding-top: 0.08rem;
+}
+.zyh_foot .zyh_foots{
+	width: 0.8rem;
+	height: 100%;
+	float: left;
+}
+.zyh_foot .zyh_foots img{
+	height: 0.5rem;
+	float: left;
+}
+.zyh_foot .zyh_foots p{
+	font-size: 0.2rem;
+	float: left;
+	text-align: center;
+	color: #fff;
+}

@@ -1,0 +1,252 @@
+/*头部开始*/
+.gzh-header{
+	width: 100%;
+	height: 0.88rem;
+	background: #3867FA;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.gzh-header .gzh-header-left{
+	padding-left:0.12rem;
+}
+.gzh-header .gzh-header-left>a{
+	display: flex;
+	align-items:center;
+}
+.gzh-header .gzh-header-left img{
+	height: 0.5rem;
+	margin-top: 0.18rem;
+}
+
+.gzh-header .gzh-header-center>a{
+	display: flex;
+	align-items:center;
+}
+.gzh-header .gzh-header-center a>h1{
+	font-size: 0.36rem;
+	padding:0 0.12rem;
+	color: #FFFFFF;
+}
+.gzh-header .gzh-header-center a>img{
+	margin-top: 0.12rem;
+	vertical-align: middle;
+}
+.gzh-header .gzh-header-right{
+	padding-right:0.12rem;
+}
+.gzh-header .gzh-header-right>a{
+	display: flex;
+	align-items:center;
+}
+.gzh-header-right a>img:nth-child(1){
+	height: 0.5rem;
+	margin-top: 0.18rem;
+}
+.gzh-header-right a>img:nth-child(2){
+	width: 0.36rem;
+	height: 0.36rem;
+	margin-left:0.1rem;
+}
+/*头部结束*/
+.gzh-bj-banner{
+	width: 100%;
+	height: 4.2rem;
+	position: relative;
+}
+.gzh-bj-banner img{
+	width: 100%;
+	height: 100%;
+}
+.gzh-bj-banner .gzh-banner-mask{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;left:0;
+	z-index: 1;
+}
+.gzh-banner-mask .gzh-mask-inner{
+	width:100%;
+	height: 1rem;
+	margin-top: 2.7rem;
+	padding-left:0.45rem;
+}
+.gzh-banner-mask .gzh-mask-inner .gzh-banner-img{
+	width: 0.8rem;
+	height: 0.8rem;
+	float: left;
+	margin:0.1rem;
+}
+.gzh-banner-mask .gzh-mask-inner .gzh-banner-img>img{
+	width: 100%;
+}
+.gzh-banner-mask .gzh-mask-inner .gzh-inner-r{
+	width: 1rem;
+	float: left;
+	margin-left: 0.2rem;
+}
+.gzh-banner-mask .gzh-mask-inner .gzh-inner-r>a{
+	display: block;
+	width: 3rem;
+
+}
+.gzh-banner-mask .gzh-mask-inner .gzh-inner-r>a>span{
+	width: 0.8rem;
+	font-size: 0.3rem;
+	color: #FFFFFF;
+	vertical-align: middle;
+}
+.gzh-banner-mask .gzh-mask-inner .gzh-inner-r>a>img{
+	float: left;
+	width: 0.34rem;
+	float: right;
+	margin-right: 0.6rem;
+	margin-top: 0.15rem;
+}
+.gzh-banner-mask .gzh-mask-inner .gzh-inner-r .gzh-line{
+	display: block;
+	width: 0.85rem;
+	height: 0.02rem;
+	background: #FFFFFF;
+}
+.gzh-banner-mask .gzh-mask-inner .gzh-inner-r .time{
+	font-size: 0.3rem;
+	color: #FFFFFF;
+}
+
+/*banner结束*/
+/*地图定位开始*/
+.gzh-place{
+	width: 100%;
+	height: 4rem;
+	padding:0.26rem 0.3rem;
+	position: relative;
+}*{
+	box-sizing:border-box;
+}
+.gzh-place img{
+	width: 100%;
+}
+.gzh-place .gzh-place-mask{
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	position: absolute;
+	top:0;left:0;
+	padding:0.26rem 0.3rem;
+}
+.gzh-place .gzh-place-mask a{
+	display: block;
+	position: absolute;
+	top:0.52rem;right:0.52rem;
+	font-size: 0.22rem;
+	width: 1.1rem;
+	height: 0.46rem;
+	border-radius: 0.1rem;
+	background:#3867FA;
+	text-align:center;
+	line-height: 0.46rem;
+	color: #FFFFFF;
+}
+.gzh-place .gzh-place-mask .gzh-place1{
+	width: 1.5rem;
+	position: absolute;
+	top:1.2rem;
+	left:1.5rem;
+}
+
+.gzh-place .gzh-place-mask .gzh-place2{
+	width: 0.5rem;
+	position: absolute;
+	top:1rem;
+	left:2.1rem;
+
+}
+
+
+/*地图定位结束*/
+/*底部tab栏目开始*/
+.gzh-tab{
+	width: 100%;
+	height:0.98rem;
+	position: fixed;
+	bottom:0;
+	left:0;
+	
+}
+.gzh-tab>a>span{
+	display: block;
+	float: left;
+	width: 33.333333%;
+	height:100%;
+	background: #2C40FF;
+	text-align: center;
+	line-height: 1rem;
+	color: #FFFFFF;
+	font-size: 0.24rem;
+	vertical-align: middle;
+}
+.gzh-tab>a>span:nth-child(2){
+	background: #37BDFF;
+}
+.gzh-tab>a>span>img{
+	width: 0.42rem;
+	height: 0.32rem;
+	vertical-align: middle;
+	margin-bottom: 0.1rem;
+}
+/*底部tab栏目结束*/
+/*--------------------------------------------*/
+/*李恒利遮罩*/
+.lhl-zhezhaobg{
+	width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    z-index: 300;
+    overflow: hidden;
+    left: 0;
+}
+.lhl-zhezhao img{
+	position: absolute;
+	top: 0;
+	left: 2.83rem;
+	height: 2.53rem;
+}
+.lhl-zhezhao span{
+	display: block;
+	width: 1.5rem;
+	height: .40rem;
+	position: absolute;
+	top: 1.2rem;
+	left: 3.5rem;
+}
+.lhl-zhezhao1 img{
+	position: absolute;
+	top: .1rem;
+	left: -.1rem;
+	height: 3.2rem;
+}
+.lhl-zhezhao1 span{
+	display: block;
+	width: 1.5rem;
+	height: .40rem;
+	position: absolute;
+	top: 2.65rem;
+	left: 1rem;
+}
+.lhl-zhezhao2 img{
+	position: absolute;
+	top: .15rem;
+	left: 4.7rem;
+	height: 3.2rem;
+}
+.lhl-zhezhao2 span{
+	display: block;
+	width: 1.5rem;
+	height: .40rem;
+	position: absolute;
+	top: 2.5rem;
+	left: 5rem;
+}

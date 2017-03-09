@@ -1,0 +1,400 @@
+/*头部开始*/
+.gzh-header{
+	width: 100%;
+	height: 0.88rem;
+	background: #3867FA;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.gzh-header .gzh-header-left{
+	padding-left:0.12rem;
+}
+.gzh-header .gzh-header-left>a{
+	display: flex;
+	align-items:center;
+}
+.gzh-header .gzh-header-left img{
+	width: 0.4rem;
+}
+.gzh-header .gzh-header-center{
+	margin-left: 1rem;
+}
+.gzh-header .gzh-header-center>a{
+	display: flex;
+	align-items:center;
+}
+.gzh-header .gzh-header-center a>h1{
+	font-size: 0.36rem;
+	padding:0 0.12rem;
+	color: #FFFFFF;
+}
+.gzh-header .gzh-header-center a>img{
+	margin-top: 0.12rem;
+	vertical-align: middle;
+}
+.gzh-header .gzh-header-right{
+	padding-right:0.12rem;
+}
+.gzh-header .gzh-header-right>a{
+	display: flex;
+	align-items:center;
+}
+.gzh-header .gzh-header-right>a>img{
+	width: 0.4rem;
+	margin:0.05rem;
+}
+/*头部结束*/
+/*banner开始*/
+.gzh-yj-banner{
+	width: 100%;
+	height: 3rem;
+
+}
+.gzh-yj-banner>img{
+	width: 100%;
+	z-index: -1;
+}
+/*banner结束*/
+/*唯美梦幻山西开始*/
+.gzh-dream{
+	width: 100%;
+	height: auto;
+	padding:0 0.5rem;
+	position: relative;
+}
+.gzh-dream>a{
+	display: flex;
+	width: 100%;
+	height: 1.43rem;
+	padding:0 0.5rem;
+	border-bottom: 1px solid #EBEBEB;
+	flex-direction:column;
+	
+}
+.gzh-dream>a>img{
+	display: block;
+	width: 1.2rem;
+	position: absolute;
+	top:-0.5rem;
+	left:42%;
+	margin:0 auto;
+}
+.gzh-dream>a>span{
+	display: block;
+	text-align: center;
+	font-size: 0.24rem;
+}
+.gzh-dream>a .gzh-zou{
+	margin-top: 0.6rem;
+	color: #333333;
+}
+.gzh-dream>a .gzh-weimei{
+	margin-top: 0.05rem;
+	color: #808080;
+}
+ /*里程开始*/
+.gzh-dream .gzh-con{
+	width: 100%;
+	height: 0.7rem;
+	padding-top: 0.12rem;
+}
+.gzh-con div{
+	width: 33.333333%;
+	height: 0.7rem;
+	float: left;
+	border-right:1px solid #EEEEEE;
+}
+.gzh-con div:nth-child(3){
+	border-right:0;
+}
+.gzh-con div>span{
+	display: block;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #333333;
+}
+.gzh-con div>span:nth-child(2){
+	color: #999999;
+}
+*{
+	box-sizing:border-box;
+}
+.wjty_ovfl{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*里程结束 */
+/*景点、住宿、餐饮*/
+.gzh-dream .gzh-jing{
+	width: 100%;
+	height: 0.45rem;
+	display: flex;
+	margin-top: 0.3rem;
+}
+.gzh-dream .gzh-jing>div{
+	width: 25%;
+}
+.gzh-dream .gzh-jing>div>a{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+.gzh-dream .gzh-jing>div>a>img{
+	width: 0.5rem;
+	height: 0.5rem;
+	vertical-align: middle;
+}
+.gzh-dream .gzh-jing>div>a>span{
+	font-size: 0.24rem;
+	color: #333333;
+	margin-top:-0.1rem;
+}
+/*景点、住宿、餐饮结束*/
+/*奥克兰开始*/
+.gzh-dream .gzh-gq{
+	width: 100%;
+	height:0.45rem;
+}
+.gzh-dream .gzh-gq a{
+	display: flex;
+}
+.gzh-dream .gzh-gq a>img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.gzh-dream .gzh-gq a>p{
+	font-size: 0.24rem;
+	color: #333333;
+	padding-top:0.12rem;
+}
+/*奥克兰结束*/
+/*查看线路日程 */
+.gzh-dream .gzh-look{
+	width: 3.32rem;
+	height: 0.7rem;
+	margin:0.28rem auto;
+	background: url(../images/wjy/gzh-sy18.png)no-repeat center center/cover;
+	text-align: center;
+}
+.gzh-dream .gzh-look a{
+	font-size: 0.24rem;
+	line-height: 0.7rem;
+	color: #3867FA;
+}
+/*第一天*/
+.gzh-dream .gzh-firstday{
+	width: 100%;
+	height:0.5rem;
+}
+.gzh-dream .gzh-firstday .gzh-yuan{
+	width: 0.3rem;
+	height: 0.3rem;
+	padding:0.1rem;
+	border:0.1rem solid #E9F5FB;
+	background-clip: content-box;
+	background: #ffffff;
+	border-radius: 50%;
+	float: left;
+	margin:0.08rem;
+	background-origin: content-box!important;
+}
+.gzh-dream .gzh-firstday .gzh-red{
+	width: 0.16rem;
+	height: 0.18rem;
+	background:red;
+	border-radius:50%;
+	float: left;
+	margin:0.15rem;
+}
+.gzh-dream .gzh-firstday .gzh-text>a{
+	display: block;
+	text-align: left;
+	line-height: 0.54rem;
+	font-size: 0.22rem;
+	color: #333333;
+}
+.gzh-dream .gzh-first-rc{
+	width: 100%;
+	height: 3.1rem;
+	box-shadow: 0 0 0.15rem 0.01rem #EDEDED;
+	margin:0.32rem 0;
+	padding:0.16rem 0 0.16rem 0.16rem;
+}
+.gzh-dream .gzh-first-rc>ul{
+	width: 100%;
+	height: 2.2rem;
+}
+.gzh-dream .gzh-first-rc>ul>li{
+	width: 2.1rem;
+	height: 2.1rem;
+	overflow: hidden;
+	margin-right: 0.1rem;
+	float: left;
+}
+.gzh-dream .gzh-first-rc>ul>li:nth-child(3){
+	width: 1.68rem;
+}
+.gzh-dream .gzh-first-rc>ul>li:nth-child(3)>img{
+	width: 100%;
+}
+.gzh-dream .gzh-first-rc>ul>li>img{
+	width: 2.2rem;
+
+}
+.gzh-dream .gzh-first-rc .gzh-wz{
+	width: 100%;
+	height: 0.55rem;
+}
+.gzh-dream .gzh-first-rc .gzh-wz>a{
+	display: block;
+	width: 100%;
+	height: 0.55rem;
+}
+.gzh-dream .gzh-first-rc .gzh-wz>a>span:nth-child(1){
+	display: block;
+	width: 50%;
+	float: left;
+	font-size: 0.24rem;
+	color: #333333;
+
+}
+.gzh-dream .gzh-first-rc .gzh-wz>a>span:nth-child(2){
+	display: block;
+	float: right;
+	font-size: 0.24rem;
+	color: #333333;
+	margin-right: 0.3rem;
+	margin-top: 0.3rem;
+
+}
+.gzh-dream .gzh-first-rc .gzh-wz>a>span:nth-child(2)>img{
+	width: 0.21rem;
+	margin-right:0.1rem;
+}
+.gzh-dream .gzh-first-rc .gzh-wz>a>span:nth-child(2)>i{
+	color: #A9A9A9;
+}
+/*下拉显示更多*/
+.gzh-dream .gzh-more{
+	width: 3rem;
+	height: 0.3rem;
+	margin:0 auto;
+	margin-bottom: 0.2rem;
+} 
+.gzh-dream .gzh-more>img{
+	width: 0.34rem;
+	float: left;
+	margin-right: 0.1rem;
+}
+.gzh-dream .gzh-more>p{
+	font-size: 0.24rem;
+	color: #6E6E6E;
+}
+/*分享遮罩*/
+.gzh-enjoy-mask{
+	width: 100%;
+	height: 100%;
+	background:#000000;
+	opacity: 0.9;
+	position: absolute;
+	top:0;left: 0;
+	z-index: 222;
+}
+.gzh-enjoy-box{
+	width: 4.86rem;
+	height: 2.5rem;
+	position: absolute;
+	top:4.21rem;
+	left:1.3rem;
+	background:url(../images/wjy/gzh-sy22_03.png)no-repeat center center/cover;
+	z-index: 22222;
+}
+.gzh-enjoy-box .gzh-enjoy{
+	width: 1.8rem;
+	height: 1.8rem;
+	background:#3867FA;
+	border-radius: 50%;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.8rem;
+	position: absolute;
+	left: 30%;
+	top:-0.9rem;
+}
+.gzh-enjoy-box .gzh-qq{
+	width: 2.6rem;
+	height: 0.6rem;
+	margin:1rem auto;
+	display: flex;
+	justify-content:space-between;
+}
+.gzh-enjoy-box .gzh-qq>div{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	box-shadow: 0 0 0.15rem 0.05rem #ECF2FF;
+	text-align: center;
+}
+.gzh-enjoy-box .gzh-qq>div>a>img{
+	width: 0.24rem;
+	margin-bottom: 0.08rem;
+}
+/*--------------------------------------------*/
+/*李恒利遮罩*/
+.lhl-zhezhaobg{
+	width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    left: 0;
+}
+.lhl-zhezhao3 img{
+	position: absolute;
+	top: -.13rem;
+	left: 2.55rem;
+	height: 2.88rem;
+}
+.lhl-zhezhao3 span{
+	display: block;
+	width: 1.5rem;
+	height: .40rem;
+	position: absolute;
+	top: 0.9rem;
+	left: 3.5rem;
+}
+.lhl-zhezhao4 img{
+	position: absolute;
+	top: .1rem;
+	left: 4.9rem;
+	height: 3.26rem;
+}
+.lhl-zhezhao4 span{
+	display: block;
+	width: 1.5rem;
+	height: .40rem;
+	position: absolute;
+	top: 2.65rem;
+	left: 5.5rem;
+}
+.lhl-zhezhao5 img{
+	position: absolute;
+	top: -.06rem;
+	left: 1.86rem;
+	height: 3.2rem;
+}
+.lhl-zhezhao5 span{
+	display: block;
+	width: 1.5rem;
+	height: .40rem;
+	position: absolute;
+	top: 2.1rem;
+	left: 2.5rem;
+}

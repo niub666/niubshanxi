@@ -1,0 +1,213 @@
+
+header{
+	width: 100%;height: .88rem;
+	background: #3B67FA;
+}
+/*导航*/
+.scx-header1{
+	justify-content:space-between;
+	display:flex;
+}
+.scx-fanhui{
+	width: .5rem;height: .5rem;
+	float: left;
+	margin-top: .2rem;
+	margin-left: .24rem
+}
+.scx-fanhui img{
+	width: 100%;
+	float: left;
+}
+.scx-inbox{
+	width: 3.41rem;height: .45rem;
+	border:0px;
+	padding:0 .1rem;
+	float: left;
+	margin-top: .20rem;
+	position: relative;
+	margin-left: .3rem;
+	box-sizing:border-box;
+}
+.scx-inbox img{
+	width: .6rem;
+	float: left;
+	margin-top: .18rem;
+}
+.scx-inbox span{
+	font-size: .33rem;
+	float: left;
+	color:#FFFFFF;
+	line-height: .55rem;
+}
+.scx-sousuo{
+	float: left;
+	width: .27rem;height: .41rem;
+}
+.scx-sousuo img{
+	width: 100%;
+	float: left;
+	margin-top: .1rem;
+}
+.scx-quxiao{
+	width: .4rem;height: .4rem;
+	margin-right: .2rem;
+	margin-top:.3rem;	
+}
+.scx-quxiao img{
+	float: left;
+	width: 100%;
+}
+
+/*                      中间*/
+.scx-lvxing-artice{
+	height: 11.43rem;
+	background: url(../images/scx-lvxing-beijing2.png);
+	background-size: 100% 100%;
+	padding-top: .63rem;
+}
+.scx-lvxing-beijing{
+	width: 6.05rem;height: 9.5rem;
+	margin:0 auto;
+	background: url(../images/scx-lvxing-beijing.png);
+	background-size: 100% 100%;
+	position: relative;
+}
+.scx-lvxing-pingfen{
+	position: absolute;
+	width: .9rem;height: 1.02rem;
+	top:4.7rem;left:.34rem;
+}
+.scx-lvxing-pingfen img{
+	width: 100%;
+}
+
+.scx-lvxing-s1{
+	top: 5rem;left:.9rem;
+		color:#FFFCFC;
+		position: absolute;
+	font-size: .35rem;
+}
+.scx-lvxing-s2{
+	top: 5rem;left:1.8rem;
+		color:#FFFCFC;
+		position: absolute;
+	font-size: .35rem;
+}
+.scx-lvxing-xia{
+	width: 5rem;height: 2.6rem;
+	position: absolute;
+	top: 6.2rem;left:.5rem;
+}
+.scx-lvxing-s3box{
+	width: 100%;
+}
+.scx-lvxing-s3{
+	font-size: .25rem;color: #2F4343;
+	position: absolute;
+	top: 0;left: 0;
+}
+.scx-lvxing-xing{
+	float: right;
+	width: 1.6rem;height: .28rem;
+}
+.scx-lvxing-xing img{
+	height: 100%;float: left;
+}
+.scx-lvxing-s4box{
+	width: 3rem;
+	position: absolute;
+	top: .4rem;left: 0;
+	line-height: .3rem;
+}
+.scx-lvxing-s4{
+	font-size: .23rem;color: #697D7D;
+	display: inline-block;
+}
+.scx-lvxing-fangzibox{
+	width: 1.3rem;height: .95rem;
+	position: absolute;
+	bottom:0rem;left:.14rem;
+}
+.scx-lvxing-fangziimg img{
+	width: .5rem;
+	float: left;
+	margin-left:.38rem;
+}
+.scx-lvxing-dizhi{
+	width: 1.3rem;height: .4rem;
+	border-radius: .2rem;
+	background: #3578FC;
+	margin:0 auto;
+	float: left;
+	margin-top: .1rem;
+	text-align: center;
+	line-height: .4rem;
+	color:#FBFDFF;
+	font-size: .22rem;
+}
+.scx-lvxing-xinxibox{
+	width: 1.4rem;height: .95rem;
+	position: absolute;
+	bottom:0rem;left:1.76rem;
+}
+.scx-lvxing-xinxi{
+	width: 1.2rem;height: .5rem;
+	margin:0 auto;
+	font-size: .15rem;
+	color:#ABBABA;
+	line-height: .5rem;
+}
+.scx-lvxing-xinxi img{
+	height: 100%;float: left;
+}
+.scx-lvxing-xinxi span{
+	margin-left: .1rem;
+}
+.scx-lvxing-daodabox{
+	width: 1.4rem;height: .95rem;
+	position: absolute;
+	bottom:0rem;left:3.5rem;
+}
+.scx-lvxing-daodabox div{
+	width: 1.28rem;height: .4rem;
+	margin-top: .05rem;
+	margin-left:.07rem;
+}
+.scx-inbox2{
+	width: 3.2rem;
+	color:#FFFFFF;
+	height: 0.3rem;
+	margin:0 auto;
+	margin-top: .2rem;
+}
+.scx-inbox2 span{
+	font-size: 14px;
+	float: left;
+	margin: 0 0.2rem;
+	display: block;
+}
+.scx-inbox2 img{
+	width: 0.66rem;
+	height: 0.4rem;
+	float: left;
+	display: block;
+}
+.scx-lvxing-fen{
+	width: 1.85rem;
+	height: .26rem;
+	font-size: .26rem;
+	color:#FFFFFF;
+	margin:0 auto;
+	margin-top: .2rem;
+	background: url(../images/scx-lvxing-fen.png);
+	background-size: 100% 100%;
+	position: relative;
+}
+.scx-lvxing-s6{
+	position: absolute;
+	top:0;left:.6rem;
+}
+.scx-lvxing-s7{
+	position: absolute;
+	top:0;left:.9rem;
+}

@@ -1,0 +1,221 @@
+.scx-header-box {
+  width: 100%;
+  height: 0.88rem;
+  overflow: hidden;
+  background: #3867FA;
+}
+.scx-header-box .scx-header-left {
+  display: block;
+  width: 0.44rem;
+  float: left;
+  height: 0.44rem;
+  overflow: hidden;
+  margin-top: 0.22rem;
+  margin-left: 0.24rem;
+  line-height: 0.44rem;
+  background: #fff;
+  border-radius: 50%;
+}
+.scx-header-box .scx-header-left img {
+  width: 75%;
+  height: 75%;
+  margin: 0.04rem 0 0 0.05rem;
+}
+.scx-header-box .scx-header-content {
+  width: 2.55rem;
+  height: 0.44rem;
+  float: left;
+  margin-left: 1.86rem;
+  margin-top: 0.22rem;
+}
+.scx-header-box .scx-header-content .scx-header-content-dian {
+  width: 0.05rem;
+  height: 0.05rem;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  margin-right: 0.12rem;
+  margin-top: 0.22rem;
+}
+.scx-header-box .scx-header-content .scx-header-content-dian2 {
+  width: 0.07rem;
+  height: 0.07rem;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  margin-right: 0.12rem;
+  margin-top: 0.21rem;
+}
+.scx-header-box .scx-header-content .scx-header-content-dian3 {
+  width: 0.09rem;
+  height: 0.09rem;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  margin-right: 0.45rem;
+  margin-top: 0.2rem;
+}
+.scx-header-box .scx-header-content .scx-header-content-diantext {
+  font-size: 18px;
+  float: left;
+  line-height: 0.44rem;
+  color: #fff;
+}
+.scx-banner-box {
+  width: 100%;
+  height: 4.3rem;
+  position: relative;
+}
+.scx-banner-box img {
+  width: 100%;
+  height: 100%;
+}
+.scx-banner-box .scx-banner-text {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 22px;
+  color: #fff;
+}
+.scx-banner-box .scx-banner-text2 {
+  width: 0.4rem;
+  height: 0.02rem;
+  background: #fff;
+  float: left;
+  position: absolute;
+  top: 1.39rem;
+  left: 2.17rem;
+}
+.scx-banner-box .scx-banner-text2-1 {
+  width: 0.05rem;
+  height: 0.05rem;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  position: absolute;
+  top: 1.39rem;
+  left: 2.67rem;
+}
+.scx-banner-bottombox {
+  width: 100%;
+  height: 1.62rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.51rem;
+}
+.scx-banner-bottombox ul {
+  width: 100%;
+  height: 100%;
+}
+.scx-banner-bottombox ul .scx-banner-bottom {
+  width: 1.07rem;
+  height: 100%;
+  float: left;
+  margin-left: 0.73rem;
+  margin-right: 0.6rem;
+}
+.scx-banner-bottombox ul .scx-banner-bottom img {
+  width: 1.07rem;
+  height: 1.07rem;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+.scx-banner-bottombox ul .scx-banner-bottom p {
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
+.scx-banner-titlebox {
+  width: 100%;
+  height: 0.32rem;
+  margin-bottom: 0.6rem;
+  position: relative;
+}
+.scx-banner-titlebox .scx-banner-text2 {
+  width: 0.4rem;
+  height: 0.02rem;
+  background: #000;
+  float: left;
+  position: absolute;
+  top: 0.19rem;
+  left: 2.27rem;
+}
+.scx-banner-titlebox .scx-banner-text2-1 {
+  width: 0.05rem;
+  height: 0.05rem;
+  border-radius: 50%;
+  background: #000;
+  float: left;
+  position: absolute;
+  top: 0.19rem;
+  left: 2.75rem;
+}
+.scx-banner-titlebox .scx-banner-text {
+  width: 1.24rem;
+  height: 0.32rem;
+  font-size: 14px;
+  float: left;
+  color: #000;
+  margin-left: 2.97rem;
+  line-height: 0.32rem;
+}
+.scx-content-innerbox {
+  width: 88%;
+  height: 2.7rem;
+  margin: 0 auto 0.25rem;
+}
+.scx-content-innerbox ul {
+  width: 100%;
+  height: 100%;
+}
+.scx-content-innerbox ul .scx-content-inner {
+  width: 3.15rem;
+  height: 2.69rem;
+  margin-right: 0.24rem;
+  float: left;
+  position: relative;
+}
+.scx-content-innerbox ul .scx-content-inner img {
+  width: 100%;
+  height: 100%;
+}
+.scx-content-innerbox ul .scx-content-inner .scx-content-innertext {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  left: 0.14rem;
+  bottom: 0.75rem;
+}
+.scx-content-innerbox ul .scx-content-inner .scx-body-inner2-look {
+  position: absolute;
+  bottom: 0.22rem;
+  left: 0.12rem;
+  width: 80%;
+  height: 0.3rem;
+}
+.scx-content-innerbox ul .scx-content-inner .scx-body-inner2-look img {
+  width: 0.3rem;
+  height: 0.16rem;
+  display: block;
+  float: left;
+}
+.scx-content-innerbox ul .scx-content-inner .scx-body-inner2-look .scx-body-look-p1 {
+  float: left;
+  font-size: 10px;
+  color: #fff;
+  line-height: 0.2rem;
+  margin: 0 0.12rem;
+}
+.scx-content-btn {
+  width: 3.25rem;
+  height: 0.64rem;
+  margin: 0.28rem auto;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 0.64rem;
+  background: #ebebff;
+}
+.scx-content-btn a {
+  font-size: 14px;
+  color: #000;
+}

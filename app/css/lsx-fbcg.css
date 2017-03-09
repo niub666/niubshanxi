@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+}
+.header {
+  width: 100%;
+  height: 0.88rem;
+  background: #3867FA;
+  display: flex;
+  align-items: center;
+}
+.header .prev {
+  width: 0.63rem;
+  height: 0.64rem;
+  display: inline-block;
+  background: url("../images/lsx/prev.png") no-repeat 100% 100% / cover;
+  margin-left: 0.2rem;
+}
+.header span {
+  display: inline-block;
+  width: 2.87rem;
+  height: 0.43rem;
+  background: url("../images/lsx/title2.png") no-repeat 100% 100% / cover;
+  margin-left: 1.7175rem;
+}
+.middle {
+  width: 100%;
+  height: auto;
+}
+.middle .top {
+  width: 100%;
+  height: 2.20rem;
+  text-align: center;
+  line-height: 2.2rem;
+}
+.middle .top span {
+  font-size: 20px;
+  color: #396CFF;
+}
+.middle .img {
+  width: 5.30rem;
+  height: 4.99rem;
+  margin: 0 auto;
+}
+.middle .img img {
+  width: 100%;
+  height: 100%;
+}
+.middle .bottom {
+  width: 100%;
+  height: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2rem;
+}
+.middle .bottom span {
+  font-size: 20px;
+  color: #C6C6C6;
+}

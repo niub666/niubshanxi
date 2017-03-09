@@ -1,0 +1,112 @@
+body {
+  height: 100%;
+  background: url("../images/lsx/bg.png");
+  z-index: -1;
+}
+* {
+  box-sizing: border-box;
+}
+.mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(60, 105, 245, 0.96);
+  z-index: 1;
+}
+.mask .header {
+  width: 100%;
+  height: 0.88rem;
+  background: #3867FA;
+  display: flex;
+  align-items: center;
+}
+.mask .header .prev {
+  width: 0.63rem;
+  height: 0.64rem;
+  display: inline-block;
+  background: url("../images/lsx/prev.png") no-repeat 100% 100% / cover;
+  margin-left: 0.2rem;
+}
+.mask .header span {
+  display: inline-block;
+  width: 2.87rem;
+  height: 0.43rem;
+  background: url("../images/lsx/title1.png") no-repeat 100% 100% / cover;
+  margin-left: 1.7175rem;
+}
+.mask .content {
+  width: 5.35rem;
+  height: auto;
+  margin: 0 auto;
+}
+.mask .content ul {
+  width: 100%;
+  height: 100%;
+}
+.mask .content ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 1.68rem;
+  border-bottom: 1px solid #83A1F8;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 0.2rem;
+  padding-left: 0.3rem;
+}
+.mask .content ul li span {
+  font-size: 16px;
+  display: inline-block;
+}
+.mask .content ul li .one {
+  padding-bottom: 0.1rem;
+}
+.mask .content ul li a {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.mask .content ul li a img {
+  width: 100%;
+  height: 100%;
+}
+.mask .content ul li .off-box {
+  width: 1.17rem;
+  height: 0.53rem;
+  background:url("../images/lsx/OFF.png") no-repeat 100% 100% / cover;
+}
+.mask .content ul li .off-box img {
+  width: 100%;
+  height: 100%;
+}
+.mask .flag {
+  position: relative;
+  width: 5.35rem;
+  height: 3rem;
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mask .flag img {
+  display: block;
+  width: 4.23rem;
+  height: 0.99rem;
+}
+.mask .flag .sure {
+  width: 1rem;
+  height: 0.8rem;
+  display: block;
+  position: absolute;
+  text-align: center;
+  line-height: 0.8rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

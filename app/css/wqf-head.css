@@ -1,0 +1,64 @@
+﻿body {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  box-sizing: border-box;
+}
+header {
+  height: .88rem;
+  width: 100%;
+  background: #3867FA;
+  padding: 0 .24rem;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+header .return {
+  background: url(../images/wqf-return.png) no-repeat 100% 100% / cover;
+  width: .63rem;
+  height: .64rem;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+}
+header .title_box {
+  display: inline-block;
+  width: 4rem;
+  height: .43rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+header .title_box .dian {
+  width: .56rem;
+  height: .22rem;
+  display: inline-block;
+}
+header .title_box .dianL {
+  background: url(../images/wqf-dianL.png) no-repeat 100% 100% / cover;
+}
+header .title_box .dianR {
+  background: url(../images/wqf-dianR.png) no-repeat 100% 100% / cover;
+}
+header .title_box .title {
+  display: inline-block;
+  padding: 0 .25rem;
+  color: #fff;
+  font-size: 18px;
+}
+header .head_icon1 {
+  left: .13rem;
+}
+header .head_icon2 {
+  background: url(../images/wqf-set.png) no-repeat 100% 100% / cover;
+  left: none;
+  right: .23rem;
+}
+header .head_icon3 {
+  background: url(../images/wqf-shua.png) no-repeat 100% 100% / cover;
+  left: none;
+  right: .82rem;
+}

@@ -1,0 +1,150 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 0.88rem;
+  background: #3867FA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.2rem;
+  flex: 0 0 auto;
+}
+.header a {
+  display: block;
+}
+.header .jin {
+  width: 2.66rem;
+  height: 0.66rem;
+}
+.header .sou {
+  width: 0.56rem;
+  height: 0.54rem;
+}
+.header img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+/*内容*/
+.con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.con .con-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.28rem;
+  background: #ccc;
+  position: relative;
+}
+.con .con-list img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.con .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.con .mask .top-tit {
+  height: 1rem;
+  position: relative;
+  margin-top: -0.2rem;
+  margin-bottom: 0.2rem;
+}
+.con .mask .top-tit.sec div {
+  background: #4874FF;
+}
+.con .mask .top-tit.thr div {
+  background: #3BD493;
+}
+.con .mask .top-tit.for div {
+  background: #9F73E7;
+}
+.con .mask .top-tit.five div {
+  background: #75A0FF;
+}
+.con .mask .top-tit div {
+  width: 3.75rem;
+  height: 0.52rem;
+  position: absolute;
+  border-radius: 0.06rem;
+  background: #2E5FFC;
+  box-shadow: 0 0 10px 1px #131D28;
+}
+.con .mask .top-tit .name {
+  top: 50%;
+  left: 50%;
+  margin-top: -0.26rem;
+  margin-left: -3.1rem;
+  color: #fff;
+  font-size: 0.24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+.con .mask .top-tit .name i {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: #fff;
+  margin: 0 0.1rem;
+  display: flex;
+  align-items: flex-start;
+}
+.con .mask .top-tit .data {
+  top: 50%;
+  left: 50%;
+  margin-top: -0.1rem;
+  margin-left: -1rem;
+  color: #fff;
+  font-size: 0.24rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 2;
+  padding-right: 0.45rem;
+  box-sizing: border-box;
+}
+.con .mask .top-tit .data img {
+  width: 0.18rem;
+  height: 0.18rem;
+  margin-right: 0.2rem;
+}
+.con .mask h4 {
+  color: #fff;
+  font-size: 0.36rem;
+}
+.con .mask .line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.con .mask .line span {
+  width: 0.6rem;
+  font-size: 0.2rem;
+  color: #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}

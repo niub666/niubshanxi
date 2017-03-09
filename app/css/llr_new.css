@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+}
+.mask {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  opacity: 0.7;
+}
+.mask .main {
+  width: 4.85rem;
+  height: 5.71rem;
+  background: #fff;
+  border-radius: 0.2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mask .main .bg {
+  position: absolute;
+  width: 4.07rem;
+  height: 6.40rem;
+  background: #396CFF;
+  top: -0.38rem;
+  left: 0.38rem;
+  z-index: -1;
+  border-radius: 0.2rem;
+}
+.mask .main .may {
+  position: absolute;
+  top: -1.5rem;
+  left: 30%;
+  width: 2.12rem;
+  height: 2.33rem;
+  background: url("../images/llr/may.png") 100% 100% / cover;
+}
+.mask .main h3 {
+  font-size: 0.28rem;
+}
+.mask .main .line {
+  margin: 0.1rem 0;
+  display: flex;
+  align-items: center;
+}
+.mask .main .line div {
+  width: 0.52rem;
+  height: 1px;
+  background: #000;
+  vertical-align: middle;
+}
+.mask .main .line .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #000;
+  margin: 0 5px;
+}
+.mask .main .per{
+  margin-bottom: 0.3rem;
+}
+.mask .main .per img {
+  width: 0.89rem;
+  height: 0.94rem;
+  vertical-align: bottom;
+}
+.mask .main .per span {
+  line-height: 0.94rem;
+  font-size: 0.22rem;
+}
+.mask .main .click {
+  width: 3.91rem;
+  height: 0.91rem;
+  border-radius: 0.4rem;
+  margin-bottom: -1.5rem;
+}
+.mask .main .click a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  background: #3166FF;
+  font-size: 0.32rem;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}

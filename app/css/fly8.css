@@ -1,0 +1,211 @@
+@import url(base.css);
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.yxm-box{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+	/*overflow: hidden;*/
+}
+/*头部*/
+	.yxm-nav{
+		width: 100%;
+		height: 0.88rem;
+		background: #3867fa;
+	}
+	.yxm-nav .yxm-nav-back{
+		width: 0.88rem;
+		height: 100%;
+		float: left;
+		margin-left: 0.1rem;
+	}
+	.yxm-nav .yxm-nav-back a{
+		display: block;
+		width: 0.65rem;
+		height: 0.65rem;
+		margin-top: 0.2rem;
+	}
+	.yxm-nav .yxm-nav-back a img{
+		width: 100%;
+		display: block;
+	}
+	.yxm-nav .yxm-nav-title{
+		height: 100%;
+		width: 3rem;
+		margin: 0 auto;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-l{
+		width: 0.6rem;
+		height: 100%;
+		float: left;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-l img{
+		display: block;
+		margin-top: 0.33rem;
+		width: 100%;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-z{
+		width: 1.8rem;
+		height: 100%;
+		float: left;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-z h3{
+		font-size: 0.34rem;
+		color: #fff;
+		line-height: 0.88rem;
+		text-align: center;
+	}
+
+	.yxm-nav .yxm-nav-title .yxm-title-r{
+		width: 0.6rem;
+		height: 100%;
+		float: right;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-r img{
+		display: block;
+		margin-top: 0.33rem;
+		width: 100%;
+	}
+
+
+/*密码*/
+	.yxm-mm{
+		width: 100%;
+		height: 1.4rem;
+	}
+	.yxm-mm h2{
+		color: #000;
+		text-align: center;
+		line-height: 2.15rem;
+		font-size: 0.28rem;
+	}
+
+	.yxm-srk{
+		width: 100%;
+		height: 1.04rem;
+		margin-top: 0.2rem;
+	}
+	.yxm-srk .yxm-srk-item{
+		width: 5.14rem;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.yxm-srk .yxm-srk-item input{
+		width: 100%;
+		height: 100%;
+		display: block;
+		border: none;
+		text-align: center;
+		color: #396cff;
+		font-size: 0.35rem;
+		border-radius:.2rem;
+	}
+	.yxm-srk .yxm-srk-item .yxm-item{
+		width: 1.02rem;
+		height: 1.02rem;
+		float: left;
+		margin: 0 0.12rem;
+		box-shadow: 0 0 0.2rem 0.01rem #aaa6a6;
+	}
+
+/*键盘*/
+	.yxm-jp{
+		width: 86%;
+		height: 7.8rem;
+		margin: 0.1rem 0 0 0.9rem;
+		position: relative;
+	}
+	.yxm-jp img{
+		width: 100%;
+	}
+
+
+	.yxm-jp .yxm-an{
+		width: 1.2rem;
+		height: 1.2rem;
+		border-radius: 50%;
+		position: absolute;
+	}
+	.yxm-jp .yxm-an a{
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+	.yxm-jp .n1{
+		top: 0.9rem;
+		left: 0.16rem;
+	}
+	.yxm-jp .n2{
+		top: 0.9rem;
+		left: 2.3rem;
+	}
+	.yxm-jp .n3{
+		top: 0.9rem;
+		left: 4.44rem;
+	}
+	.yxm-jp .n4{
+		top: 2.6rem;
+		left: 0.16rem;
+	}
+	.yxm-jp .n5{
+		top: 2.6rem;
+		left: 2.3rem;
+	}
+	.yxm-jp .n6{
+		top: 2.6rem;
+		left: 4.44rem;
+	}
+	.yxm-jp .n7{
+		top: 4.25rem;
+		left: 0.16rem;
+	}
+	.yxm-jp .n8{
+		top: 4.25rem;
+		left: 2.3rem;
+	}
+	.yxm-jp .n9{
+		top: 4.25rem;
+		left: 4.44rem;
+	}
+
+	.yxm-jp .nx{
+		top: 6rem;
+		left: 0.16rem;
+	}
+	.yxm-jp .n0{
+		top: 6rem;
+		left: 2.3rem;
+	}
+	.yxm-jp .nd{
+		top: 6rem;
+		left: 4.44rem;
+	}
+
+
+	.yxm-jp .nxx{
+		width: 0.6rem;
+		height: 0.6rem;
+		top: 0.1rem;
+		right: 0.1rem;
+	}
+
+
+/*确认购买*/
+	.yxm-bottom{
+		width: 100%;
+		height: 0.98rem;
+		position: absolute;
+		bottom: 0;
+		background: #3163ff;
+	}
+	.yxm-bottom h2{
+		color: #fff;
+		text-align: center;
+		line-height: 0.98rem;
+		font-size: 0.3rem;
+	}
+
+

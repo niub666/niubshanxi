@@ -1,0 +1,511 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 0.88rem;
+  background: #3867FA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.2rem;
+}
+.header a {
+  display: block;
+}
+.header .jin {
+  width: 2rem;
+  height: 0.58rem;
+}
+.header .sou {
+  width: 0.58rem;
+  height: 0.58rem;
+}
+.header img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+/*banner*/
+.banner {
+  width: 6.88rem;
+  height: 4.28rem;
+  margin: 0 auto;
+  background: #ccc;
+  border-radius: 0.15rem;
+  margin-top: 0.25rem;
+  box-shadow: 0 0 10px 1px #ccc;
+}
+.banner a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+.banner a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.15rem;
+}
+.banner a .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner a .mask span {
+  color: #fff;
+  font-size: 40px;
+}
+.banner a .img-1 {
+  position: absolute;
+  z-index: 33;
+}
+.banner a .img-2 {
+  position: absolute;
+  width: 6.6rem;
+  bottom: -0.1rem;
+  z-index: 22;
+  left: 0.15rem;
+}
+.banner a .img-3 {
+  position: absolute;
+  bottom: -0.2rem;
+  z-index: 11;
+  width: 6.3rem;
+  left: 0.3rem;
+}
+/*list*/
+.list {
+  display: flex;
+  margin-top: 0.26rem;
+  justify-content: space-between;
+  padding: 0 0.6rem;
+}
+.list a {
+  margin-top: 0.26rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.list a img {
+  width: 1.38rem;
+  height: 1.31rem;
+}
+.list a span {
+  font-size: 0.32rem;
+  color: #000;
+}
+/*环球*/
+.hq {
+  margin-top: 0.3rem;
+  position: relative;
+}
+.hq .h-tit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.3rem;
+}
+.hq .h-tit .h-left {
+  width: 2.5rem;
+  height: 0.65rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hq .h-tit .h-left img {
+  width: 0.51rem;
+  height: 0.5rem;
+}
+.hq .h-tit .h-left span {
+  font-size: 0.32rem;
+  color: #3867FA;
+  font-weight: bold;
+  margin-left: 0.05rem;
+}
+.hq .h-tit .h-right {
+  width: 1rem;
+  height: 0.3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px 1px #3867FA;
+  color: #625AFF;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.3rem;
+}
+.hq .h-main {
+  height: 2.96rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  align-items: center;
+}
+.hq .h-main .h-list {
+  height: 2.74rem;
+  width: 2.1rem;
+  position: relative;
+}
+.hq .h-main .h-list .bg {
+  position: absolute ;
+  width: 1.84rem;
+  height: 2.96rem;
+  background: #3561EB;
+  z-index: -1;
+  box-shadow: 0 0 15px 1px #ccc;
+  border-radius: 0.2rem;
+  top: -0.1rem;
+  left: 0.15rem;
+}
+.hq .h-main .h-list .fg {
+  width: 2.1rem;
+  height: 2.74rem;
+/*  display: flex;
+  flex-direction: column;
+  */
+  background: #fff;
+  border-radius: 0.2rem;
+}
+.hq .h-main .h-list .fg a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 0.2rem;
+}
+.hq .h-main .h-list .fg .line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 0.42rem;
+  height: 0.25rem;
+}
+.hq .h-main .h-list .fg .line div {
+  width: 0.52rem;
+  height: 0.02rem;
+  background: #000000;
+}
+.hq .h-main .h-list .fg .line .dot {
+  width: 0.05rem;
+  height: 0.05rem;
+  border-radius: 50%;
+  background: #000000;
+}
+.hq .h-main .h-list .fg img {
+  width: 2.1rem;
+  height: 2.05rem;
+  flex: 0 0 auto;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+.hq .h-main .h-list .fg .text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 0.32rem;
+  color: black;
+}
+.hq .h-bgimg {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  width: 100%;
+  height: 2.45rem;
+  background: #ccc;
+  z-index: -1;
+}
+.hq .h-bgimg img {
+  width: 100%;
+  height: 100%;
+}
+/*热门游记*/
+.travel {
+  margin-top: 1.3rem;
+  position: relative;
+}
+.travel .h-tit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.3rem;
+}
+.travel .h-tit .h-left {
+  width: 2.5rem;
+  height: 0.65rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.travel .h-tit .h-left img {
+  width: 0.51rem;
+  height: 0.5rem;
+}
+.travel .h-tit .h-left span {
+  font-size: 0.32rem;
+  color: #3867FA;
+  font-weight: bold;
+  margin-left: 0.05rem;
+}
+.travel .h-tit .h-right {
+  width: 1rem;
+  height: 0.3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px 1px #3867FA;
+  color: #625AFF;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.3rem;
+}
+ .h-tit .h-right  a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color:#625AFF; ;
+}
+.travel .t-con {
+  margin-top: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem;
+}
+.travel .t-con .t-list {
+  width: 2.18rem;
+  height: 3.32rem;
+  position: relative;
+  padding: 0.13rem;
+  box-sizing: border-box;
+
+/*  display: flex;
+  flex-direction: column;
+  */
+}
+.travel .t-con .t-list a{
+/*  width: 2.18rem;
+  height: 3.32rem;
+  position: relative;
+  padding: 0.13rem;*/
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.travel .t-con .t-list .bg4-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.travel .t-con .t-list .top {
+  height: 2.2rem;
+  flex: 0 0 auto;
+  z-index: 88;
+  display: flex;
+  justify-content: flex-start;
+}
+.travel .t-con .t-list .top img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.65rem;
+  height: 0.3rem;
+  margin: 0.13rem;
+  z-index: 999;
+  float: left;
+}
+.travel .t-con .t-list .top span {
+  font-size: 0.16rem;
+  color: #fff;
+  height: 0.32rem;
+  float: left;
+  margin-left: 0.8rem;
+}
+.travel .t-con .t-list .text {
+  position: absolute;
+  font-size: 0.24rem;
+  color: #fff;
+  font-weight: bold;
+  flex: 0 0 auto;
+}
+.travel .t-con .t-list .btn {
+  position: relative;
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  height: 0.45rem;
+  margin-top: 0.5rem;
+}
+.travel .t-con .t-list .btn img {
+  width: 0.21rem;
+  height: 0.21rem;
+}
+.travel .t-con .t-list .btn span {
+  color: #ffffff;
+  font-size: 0.16rem;
+}
+.travel .bg-box {
+  position: absolute;
+  top: 2.8rem;
+  width: 100%;
+  height: 2.62rem;
+  z-index: -1;
+}
+.travel .bg-box img {
+  width: 100%;
+  height: 100%;
+}
+/*酒店推荐*/
+.hotal {
+  margin-top: 1.2rem;
+}
+.hotal .h-tit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.3rem;
+}
+.hotal .h-tit .h-left {
+  width: 2.5rem;
+  height: 0.65rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hotal .h-tit .h-left img {
+  width: 0.51rem;
+  height: 0.5rem;
+}
+.hotal .h-tit .h-left span {
+  font-size: 0.32rem;
+  color: #3867FA;
+  font-weight: bold;
+  margin-left: 0.05rem;
+}
+.hotal .h-tit .h-right {
+  width: 1rem;
+  height: 0.3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px 1px #3867FA;
+  color: #625AFF;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.3rem;
+}
+.hotal .h-main {
+  height: 2.96rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  align-items: center;
+}
+.hotal .h-main .h-list {
+  width: 2.16rem;
+  height: 3.15rem;
+  position: relative;
+  box-shadow: 0 0 8px 1px #ccc;
+  border-radius: 0.15rem;
+}
+.hotal .h-main .h-list .bg {
+  position: absolute;
+  left: 0.12rem;
+  width: 1.92rem;
+  height: 2.43rem;
+  background: #3561EB;
+  z-index: 1;
+  box-shadow: 0 0 15px 1px #ccc;
+  border-radius: 0.2rem;
+  top: -0.1rem;
+  left: 0.15rem;
+}
+.hotal .h-main .h-list .fg {
+  width: 2.1rem;
+  height: 3.14rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 0.2rem;
+  position: relative;
+}
+.hotal .h-main .h-list .fg a{
+  width: 100%;
+  height: 100%;
+}
+.hotal .h-main .h-list .fg img {
+  position: absolute;
+  left: 0.08rem;
+  width: 1.92rem;
+  height: 2.43rem;
+  flex: 0 0 auto;
+  border-radius: 0.2rem;
+  z-index: 3;
+}
+.hotal .h-main .h-list .fg .text {
+  position: absolute;
+  bottom: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  height: 0.5rem;
+  justify-content: center;
+  font-size: 0.32rem;
+  color: black;
+  width: 100%;
+}
+.hotal .h-main .h-list .fg .text .price {
+  font-size: 0.18rem;
+  color: red;
+  align-self: center;
+}
+.hotal .h-main .h-list .fg .text span {
+  align-self: center;
+}
+.hotal .h-bgimg {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  width: 100%;
+  height: 2.45rem;
+  background: #ccc;
+  z-index: -1;
+}
+.hotal .h-bgimg img {
+  width: 100%;
+  height: 100%;
+}
+/*页脚*/
+.footer {
+  height: 1rem;
+  background: #003EFF;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.footer .tab-list {
+/*  display: flex;
+  flex-direction: column;*/
+}
+.footer .tab-list  a{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.footer .tab-list img {
+  width: 0.60rem;
+  height: 0.66rem;
+}
+.footer .tab-list .text {
+  font-size: 0.22rem;
+  color: #fff;
+  text-align: center;
+}

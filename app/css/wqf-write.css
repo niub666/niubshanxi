@@ -1,0 +1,111 @@
+﻿html,
+body {
+  height: 100%;
+}
+.head_bg {
+  width: 100%;
+  height: 4.2rem;
+  background: url(../images/wqf-headbg.png) no-repeat 100% 100% / cover;
+  position: relative;
+  padding: .8rem .48rem ;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+}
+.head_bg .tou_box {
+  display: flex;
+}
+.head_bg .tou_box .tou {
+  width: .63rem;
+  height: .63rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  overflow: hidden;
+  margin-right: .2rem;
+  background: url(../images/wqf-tou.png) no-repeat center center / cover;
+}
+.head_bg .tou_box .title {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.head_bg .tou_box .title .line {
+  height: 0;
+  width: .85rem;
+  border-bottom: 1px solid #fff;
+}
+.head_bg .tou_box .title input {
+  color: #fff;
+  font-size: 18px;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.cent {
+  margin: .28rem .32rem;
+  padding: .1rem;
+  box-sizing: border-box;
+  width: 6.86rem;
+  height: 3.46rem;
+  position: relative;
+  box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.2);
+  background: url(../images/wqf-map.png) no-repeat 100% 100% / cover;
+}
+.cent a {
+  display: block;
+  float: right;
+  color: #fff;
+  text-align: center;
+  line-height: .46rem;
+  font-size: 12px;
+  width: 1.16rem;
+  height: .46rem;
+  background: #3867FA;
+  border-radius: .1rem;
+}
+.cent .map {
+  width: 1.04rem;
+  text-align: center;
+  position: absolute;
+  left: 1.55rem;
+  top: .57rem;
+}
+.cent .map img:nth-child(1) {
+  width: .39rem;
+  height: .47rem;
+}
+.cent .map img:nth-child(2) {
+  width: 1.04rem;
+  height: 1.04rem;
+}
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+footer .item {
+  float: left;
+  width: 33.3333%;
+  height: .98rem;
+  background: #2C40FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+footer .item img {
+  margin-right: .16rem;
+}
+footer .item img:nth-child(1) {
+  width: .35rem;
+  height: .33rem;
+}
+footer .item img:nth-child(2) {
+  width: .41rem;
+  height: .35rem;
+}
+footer .active {
+  background: #37BDFF;
+}

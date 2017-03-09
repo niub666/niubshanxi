@@ -1,0 +1,154 @@
+@import url(base.css);
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.yxm-box{
+	width: 100%;
+	height: 100%;
+	background: #f2fbff;
+	/*overflow: hidden;*/
+}
+/*头部*/
+	.yxm-nav{
+		width: 100%;
+		height: 0.88rem;
+		background: #3867fa;
+		position: relative;
+	}
+	.yxm-nav .yxm-nav-back{
+		width: 0.88rem;
+		height: 100%;
+		float: left;
+		margin-left: 0.1rem;
+	}
+	.yxm-nav .yxm-nav-back a{
+		display: block;
+		width: 0.65rem;
+		height: 0.65rem;
+		margin-top: 0.2rem;
+	}
+	.yxm-nav .yxm-nav-back a img{
+		width: 100%;
+		display: block;
+	}
+	.yxm-nav .yxm-nav-title{
+		height: 100%;
+		width: 3rem;
+		margin: 0 auto;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-l{
+		width: 0.6rem;
+		height: 100%;
+		float: left;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-l img{
+		display: block;
+		margin-top: 0.33rem;
+		width: 100%;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-z{
+		width: 1.8rem;
+		height: 100%;
+		float: left;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-z h3{
+		font-size: 0.34rem;
+		color: #fff;
+		line-height: 0.88rem;
+		text-align: center;
+	}
+
+	.yxm-nav .yxm-nav-title .yxm-title-r{
+		width: 0.6rem;
+		height: 100%;
+		float: right;
+	}
+	.yxm-nav .yxm-nav-title .yxm-title-r img{
+		display: block;
+		margin-top: 0.33rem;
+		width: 100%;
+	}
+
+
+	.yxm-nav .yxm-nav-back2{
+		width: 0.88rem;
+		height: 100%;
+		float: right;
+		margin-right: 0.1rem;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.yxm-nav .yxm-nav-back2 a{
+		display: block;
+		width: 0.65rem;
+		height: 0.65rem;
+		margin-top: 0.2rem;
+	}
+	.yxm-nav .yxm-nav-back2 a img{
+		width: 100%;
+		display: block;
+	}
+
+
+/*支付成功*/
+	.yxm-zfcg{
+		width: 100%;
+		height: 2.04rem;
+		text-align: center;
+		line-height: 2.04rem;
+		font-size: 0.32rem;
+		color: #3867fa;
+	}
+	.yxm-zf-img{
+		width: 4.8rem;
+		height: 3.2rem;
+		margin: 0 auto;
+	}
+	.yxm-zf-img img{
+		width: 100%;
+		display: block;
+	}
+
+	.yxm-lj{
+		width: 100%;
+		height: 1rem;
+		margin-top: 1.4rem;
+		padding-bottom: 1.4rem;
+	}
+	.yxm-lj .yxm-lj-l{
+		width: 50%;
+		height: 100%;
+		float:left;
+	}
+	.yxm-lj .yxm-lj-r{
+		width: 50%;
+		height: 100%;
+		float:left;
+	}
+	.yxm-lj .yxm-lj-l a{
+		width: 2.5rem;
+		height: 1rem;
+		margin: 0 auto;
+		display: block;
+	}
+	.yxm-lj .yxm-lj-l a img{
+		width: 100%;
+		display: block;
+	}
+	.yxm-lj .yxm-lj-r a{
+		width: 2.5rem;
+		height: 1rem;
+		margin: 0 auto;
+		display: block;
+	}
+	.yxm-lj .yxm-lj-r a img{
+		width: 100%;
+		display: block;
+	}
+
+
+
+

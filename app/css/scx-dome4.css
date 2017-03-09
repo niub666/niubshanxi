@@ -1,0 +1,129 @@
+.scx-header-box {
+  width: 100%;
+  height: 0.88rem;
+  overflow: hidden;
+  background: #3867FA;
+}
+.scx-header-box .scx-header-left {
+  display: block;
+  width: 0.44rem;
+  float: left;
+  height: 0.44rem;
+  overflow: hidden;
+  margin-top: 0.22rem;
+  margin-left: 0.24rem;
+  line-height: 0.44rem;
+  background: #fff;
+  border-radius: 50%;
+}
+.scx-header-box .scx-header-left img {
+  width: 75%;
+  height: 75%;
+  margin: 0.04rem 0 0 0.05rem;
+}
+.scx-header-box .scx-header-content {
+  width: 3.55rem;
+  height: 0.44rem;
+  float: left;
+  margin-left: 1.5rem;
+  margin-top: 0.22rem;
+}
+.scx-header-box .scx-header-content .scx-header-content-dian {
+  width: 0.05rem;
+  height: 0.05rem;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  margin-right: 0.12rem;
+  margin-top: 0.22rem;
+}
+.scx-header-box .scx-header-content .scx-header-content-dian2 {
+  width: 0.07rem;
+  height: 0.07rem;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  margin-right: 0.12rem;
+  margin-top: 0.21rem;
+}
+.scx-header-box .scx-header-content .scx-header-content-dian3 {
+  width: 0.09rem;
+  height: 0.09rem;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  margin-right: 0.45rem;
+  margin-top: 0.2rem;
+}
+.scx-header-box .scx-header-content .scx-header-content-diantext {
+  font-size: 18px;
+  float: left;
+  line-height: 0.44rem;
+  color: #fff;
+}
+.scx-banner-titlebox {
+  width: 100%;
+  height: 0.32rem;
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+  position: relative;
+}
+.scx-banner-titlebox .scx-banner-text2 {
+  width: 0.4rem;
+  height: 0.02rem;
+  background: #000;
+  float: left;
+  position: absolute;
+  top: 0.19rem;
+  left: 1.87rem;
+}
+.scx-banner-titlebox .scx-banner-text2-1 {
+  width: 0.05rem;
+  height: 0.05rem;
+  border-radius: 50%;
+  background: #000;
+  float: left;
+  position: absolute;
+  top: 0.19rem;
+  left: 2.35rem;
+}
+.scx-banner-titlebox .scx-banner-text {
+  width: 3.24rem;
+  height: 0.32rem;
+  font-size: 14px;
+  float: left;
+  color: #000;
+  margin-left: 2.57rem;
+  line-height: 0.32rem;
+}
+.scx-content-innerbox {
+  width: 92%;
+  height: 4.46rem;
+  margin: 0 auto;
+}
+.scx-content-innerbox .scx-content-text {
+  width: 100%;
+  height: 1.14rem;
+}
+.scx-content-innerbox .scx-content-text p {
+  font-size: 13px;
+  color: #bbb;
+}
+.scx-content-innerbox .scx-content-img {
+  width: 100%;
+  height: 3.02rem;
+  margin-top: 0.3rem;
+}
+.scx-content-innerbox .scx-content-img img {
+  width: 100%;
+  height: 100%;
+}
+.scx-bottom-text {
+  width: 92%;
+  height: 1.26rem;
+  font-size: 14px;
+  color: #000;
+  margin: 0 auto;
+  line-height: 1.26rem;
+  text-align: center;
+}

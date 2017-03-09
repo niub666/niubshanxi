@@ -1,0 +1,334 @@
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
+body{
+  font-size:16px;
+}
+.mask1 {
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.mask1 .box {
+  width: 4.91rem;
+  height: 3.09rem;
+  position: relative;
+  margin: 3rem auto;
+}
+.mask1 .box img {
+  width: 100%;
+  height: 100%;
+}
+.mask1 .box .img-box1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 0.78rem;
+}
+.mask1 .box .img-box1 a {
+  display: flex;
+  justify-content: space-between;
+  width: 0.78rem;
+  height: 0.78rem;
+}
+.mask1 .box .img-box1 a img {
+  width: 100%;
+  height: 100%;
+}
+.mask1 .box .close {
+  position: absolute;
+  top: 0.59rem;
+  right: 0.01rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.mask1 .box .close img {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  width: 100%;
+  height: 0.88rem;
+  background: #3867FA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.header .prev {
+  width: 0.63rem;
+  height: 0.64rem;
+  display: inline-block;
+  background: url("../images/lsx/prev.png") no-repeat 100% 100% / cover;
+  margin-left: 0.2rem;
+}
+.header span {
+  display: inline-block;
+  width: 2.17rem;
+  height: 0.43rem;
+  background: url("../images/lsx/title3.png") no-repeat 100% 100% / cover;
+  position: absolute;
+  top: 0.22rem;
+  left: 35%;
+}
+.header .right {
+  width: 2.3rem;
+  margin-right: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+.header .right a {
+  width: 0.63rem;
+  height: 0.65rem;
+}
+.header .right a img {
+  width: 100%;
+  height: 100%;
+}
+.map {
+  background: url("../images/lsx/map1.png") no-repeat 100% 100% / cover;
+  width: 7.5rem;
+  height: 3rem;
+}
+.check {
+  width: 100%;
+  height: 1.8rem;
+  position: relative;
+}
+.tou {
+  display: block;
+  position: absolute;
+  top: -0.75rem;
+  left: 40%;
+  width: 2.42rem;
+  height: 1.55rem;
+}
+.tou img {
+  width: 100%;
+  height: 100%;
+}
+.name {
+  height: 1.2rem;
+  width: 100%;
+  position: absolute;
+  top: 0.8rem;
+  left: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.name span {
+  display: block;
+}
+.name .title {
+  font-size: 20px;
+  color: #333333;
+}
+.name .qm {
+  display: block;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+.jc {
+  width: 6.52rem;
+  height: 1.5rem;
+  margin: .1rem auto 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #EBEBEB;
+}
+.jc li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.5rem;
+  width: 33.33333%;
+  height: 1.0rem;
+  margin: 0.2rem 0;
+}
+.jc li span {
+  width: 100%;
+  height: 0.6rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 0.6rem;
+}
+.jc li .date {
+  color: #333333;
+}
+.jc li .tian {
+  color: #999999;
+}
+.jc .xian {
+  border-right: 1px solid #EBEBEB;
+}
+.app {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 7rem;
+}
+.app li {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.app li a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app li a .tu {
+  width: 0.73rem;
+  height: 0.73rem;
+}
+.app li a .tu img {
+  width: 100%;
+  height: 100%;
+}
+.app li a .dian {
+  font-size: 14px;
+  color: #333333;
+}
+.hq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.hq .qi1 {
+  float: left;
+  width: 0.87rem;
+  height: 0.59rem;
+  display: inline-block;
+}
+.hq .qi1 img {
+  width: 100%;
+  height: 100%;
+}
+.hq .qi2 {
+  float: left;
+  width: 0.59rem;
+  height: 0.59rem;
+  display: inline-block;
+}
+.hq .qi2 img {
+  width: 100%;
+  height: 100%;
+}
+.hq .zi {
+  font-size: 14px;
+}
+.chakan {
+  width: 100%;
+  height: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chakan a {
+  width: 3.33rem;
+  height: 0.71rem;
+  display: block;
+}
+.chakan a img {
+  width: 100%;
+  height: 100%;
+}
+.tu-top {
+  width: 6.6rem;
+  margin: 0.2rem auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tu-top .img {
+  display: inline-block;
+  width: 0.52rem;
+  height: 0.31rem;
+}
+.tu-top .img img {
+  width: 100%;
+  height: 100%;
+}
+.tu-top .wen {
+  margin-left: 0.2rem;
+  font-size: 14px;
+  color: #333;
+}
+.show {
+  width: 6.6rem;
+  height: 3.5rem;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.2);
+}
+.show .imgbox {
+  width: 8rem;
+}
+.show .imgbox .img1 {
+  float: left;
+  padding: 0.3rem 0.1rem 0.1rem 0.2rem;
+  width: 2.33rem;
+  height: 2.33rem;
+}
+.show .imgbox .img1 img {
+  width: 100%;
+  height: 100%;
+}
+.show .imgbox .img2 {
+  float: left;
+  padding: 0.3rem 0.1rem 0.1rem 0.2rem;
+  width: 2.33rem;
+  height: 2.33rem;
+}
+.show .imgbox .img2 img {
+  width: 100%;
+  height: 100%;
+}
+.show .imgbox .img3 {
+  float: left;
+  padding: 0.3rem 0.1rem 0.1rem 0;
+  width: 1.75rem;
+  height: 2.33rem;
+}
+.show .imgbox .img3 img {
+  width: 100%;
+  height: 100%;
+}
+.show span {
+  padding-left: 0.2rem;
+  padding-top: 0.1rem;
+}
+.show1 {
+  margin-top: 0.5rem;
+}
+.xia {
+  margin-top: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.xia img {
+  width: 0.34rem;
+  height: 0.33rem;
+}
