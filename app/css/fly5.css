@@ -191,16 +191,32 @@ html,body{
 	.yxm-dp p:nth-child(4){
 		position: absolute;
 		top: 0.4rem;
-		right: 2.05rem;
+		right: 1.3rem;
 		color: #ff1f45;
 		font-size: 0.18rem;
 	}
+	.yxm-dp p:nth-child(4) i{
+		font-size: 0.12rem;
+	}
 	.yxm-dp p:nth-child(5){
 		position: absolute;
-		top: 0.42rem;
+		top: 0.46rem;
 		right: 1.3rem;
 		color: #ff1f45;
 		font-size: 0.12rem;
+	}
+	.yxm-dp p:nth-child(6){
+		position: absolute;
+		top: 0.56rem;
+		right: 0.51rem;
+		width: 0.73rem;
+		height: 0.35rem;
+		color: #ff1f45;
+		font-size: 0.22rem;
+		background: #FFF;
+		border-radius: 0.1rem;
+		line-height: 0.35rem;
+		text-align: center;
 	}
 
 
@@ -242,16 +258,27 @@ html,body{
 	.yxm-dp1 p:nth-child(4){
 		position: absolute;
 		top: 0.4rem;
-		right: 2.05rem;
+		right: 1.3rem;
 		color: #ff1f45;
 		font-size: 0.18rem;
 	}
-	.yxm-dp1 p:nth-child(5){
-		position: absolute;
-		top: 0.42rem;
-		right: 1.3rem;
-		color: #ff1f45;
+	.yxm-dp1 p:nth-child(4) i{
 		font-size: 0.12rem;
+	}
+	.yxm-dp1 p:nth-child(5){
+	}
+	.yxm-dp1 p:nth-child(6){
+		position: absolute;
+		top: 0.71rem;
+		right: 0.51rem;
+		width: 0.73rem;
+		height: 0.34rem;
+		color: #ff1f45;
+		font-size: 0.22rem;
+		background: #FFF;
+		border-radius: 0.1rem;
+		line-height: 0.35rem;
+		text-align: center;
 	}
 
 
