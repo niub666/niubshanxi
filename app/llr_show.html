@@ -12,16 +12,16 @@
 </head>
 <body>
      <header class="header">
-      <a href="index.html" class="sou">
-         <img src="images/llr/top2-l.png" alt="">
-     </a>
-    <a href="" class="jin">
-        <img src="images/llr/top2-c.png" alt="">
-    </a>
-    <a href="llr_trip.html" class="sou">
-        <img src="images/llr/top2-r.png" alt="">
-    </a>
-</header>
+         <a href="index.html" class="sou">
+             <img src="images/llr/top2-l.png" alt="">
+         </a>
+         <a href="" class="jin">
+            <img src="images/llr/top2-c.png" alt="">
+         </a>
+         <a href="llr_trip.html" class="sou">
+            <img src="images/llr/top2-r.png" alt="">
+         </a>
+     </header>
      <section class="main">
          <div class="text">
              <p>平遥古城</p>
@@ -31,7 +31,7 @@
              <img src="images/llr/gucheng.png" alt="">
              <div class="info">
                  <div class="star">
-                     <img src="images/llr/star.png" alt="">
+                  <!--    <img src="images/llr/star.png" alt=""> -->
                  </div>
                  <p>印象</p>
                  <div class="line">
@@ -51,4 +51,25 @@
          </div>
      </section>
 </body>
+<script>
+// 星星
+window.onload=function(){
+ var star=document.querySelector(".star");
+ console.log(star);
+ var flag=true;
+ star.onclick=function(){
+    if (flag){
+        flag=!flag;
+        star.className='color1';
+        console.log(star);
+    }
+    else{
+        flag=!flag;
+        star.className='color2';
+        console.log(star);
+    }
+ }
+}
+
+</script>
 </html>
