@@ -1,3 +1,20 @@
+html,body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  flex: none;
+}
+section{
+  width: 100%;
+  flex: auto;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
 .zyh_top{
 	width: 100%;
 	background: #3867FA;
