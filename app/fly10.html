@@ -21,7 +21,7 @@
 				<span>
 					<img src="images/yxm-ss.png" alt="">
 				</span>
-				<input type="text" placeholder="中文/拼音/首字母">
+				<input type="text" value="中文/拼音/首字母" onfocus="this.value=''" onblur="if(this.value==''){this.value='中文/拼音/首字母'}" ng-click="visible=!visible"/>
 			</div>
 		</div>
 		<!-- 导航栏 -->
@@ -173,10 +173,10 @@
 			</div>
 		</div>
 
-		<div class="yxm-list" style="margin-top:0.1rem;">
+		<!-- <div class="yxm-list" style="margin-top:0.1rem;">
 			<a href="##"><img src="images/yxm-a3.png" alt=""></a>
 			<p>字母顺序</p>
-		</div>
+		</div> -->
 		<p class="yxm-zimu">B</p>
 		<div class="yxm-didi">
 			<div class="yxm-dd-x">
@@ -207,10 +207,10 @@
 			</div>
 		</div>
 
-		<div class="yxm-list" style="margin-top:0.1rem;">
+		<!-- <div class="yxm-list" style="margin-top:0.1rem;">
 			<a href="##"><img src="images/yxm-a3.png" alt=""></a>
 			<p>字母顺序</p>
-		</div>
+		</div> -->
 		<p class="yxm-zimu">C</p>
 		<div class="yxm-didi">
 			<div class="yxm-dd-x">
@@ -243,4 +243,7 @@
 
 	</div>
 </body>
+<script>
+	
+</script>
 </html>
