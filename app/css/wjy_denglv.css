@@ -387,7 +387,7 @@ right: 0.3rem;
 .wjy_si_san{
 	width: 100%;
 	float: left;
-	margin-top:1rem;
+	margin-top:0.6rem;
 }
 .wjy_si_san ul{
 	width: 0.75rem;
@@ -423,7 +423,7 @@ border-radius: 20px;
 }
 
 @media screen and (max-height:480px){
-/*	.wjy_yi_er{
+	.wjy_yi_er{
 		margin-top:1rem;
 	}
 	.wjy_zhengque{
@@ -431,14 +431,12 @@ border-radius: 20px;
 	}
 	.wjy_er_yi{
 		margin-top:1.3rem;
-	}*/
-/*	.wjy_lvchen2{
+	}
+	.wjy_lvchen2{
 		height: 9rem;
 		margin-top:0!important;
-	}*/
-	.wjy_si_si{
-		margin-top:1rem;
 	}
+	
 	.wjy_yi_si{
 		margin-top:0.05rem;
 	}
@@ -447,15 +445,14 @@ border-radius: 20px;
     float: left;
 }
 .wjy_si_er{
-	/*margin-top:0.9rem;*/
-	/*padding: 0rem 0.9rem 0rem 1.3rem;*/
+	margin-top:0.9rem;
+	padding: 0rem 0.5rem 0rem 1rem;
 }
 }
 .wjy_tiaoguo{
 	position: absolute;
 	top:0.5rem;
 	right: 0.4rem;
-	font-size: 0.28rem;
 	color:#000;
 	font-weight: bold;
 }
