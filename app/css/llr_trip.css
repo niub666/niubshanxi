@@ -52,6 +52,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 .contain .item .mask .more {
   width: 1.75rem;
@@ -64,7 +65,7 @@ body {
 .contain .item .right-box {
   position: absolute;
   top: 0;
-  right: 0;
+  right: -0.9rem;
   width: 0.9rem;
   height: 100%;
   background: #2152F5;
@@ -73,6 +74,7 @@ body {
   justify-content: space-between;
   padding: 0.6rem 0;
   box-sizing: border-box;
+  opacity: 0;
 }
 .contain .item .right-box a {
   width: 0.76rem;

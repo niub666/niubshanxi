@@ -24,17 +24,17 @@
             <a href="llr_show.html" class="more">
                 <img src="images/llr/more.png" alt="">
             </a>
-            <!--<div class="right-box">-->
-                <!--<a href="">-->
-                    <!--<img src="images/llr/x1.png" alt="">-->
-                <!--</a>-->
-                <!--<a href="">-->
-                    <!--<img src="images/llr/x2.png" alt="">-->
-                <!--</a>-->
-                <!--<a href="">-->
-                    <!--<img src="images/llr/x3.png" alt="">-->
-                <!--</a>-->
-            <!--</div>-->
+            <div class="right-box">
+                <a href="">
+                    <img src="images/llr/x1.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/llr/x2.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/llr/x3.png" alt="">
+                </a>
+            </div>
         </div>
     </dvi>
     <dvi class="item">
@@ -64,20 +64,62 @@
             <a href="llr_show.html" class="more">
                 <img src="images/llr/more.png" alt="">
             </a>
-            <!--<div class="right-box">-->
-                <!--<a href="">-->
-                    <!--<img src="images/llr/x1.png" alt="">-->
-                <!--</a>-->
-                <!--<a href="">-->
-                    <!--<img src="images/llr/x2.png" alt="">-->
-                <!--</a>-->
-                <!--<a href="">-->
-                    <!--<img src="images/llr/x3.png" alt="">-->
-                <!--</a>-->
-            <!--</div>-->
+            <div class="right-box">
+                <a href="">
+                    <img src="images/llr/x1.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/llr/x2.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/llr/x3.png" alt="">
+                </a>
+            </div>
         </div>
     </dvi>
 
 </section>
 </body>
+<script>
+window.onload=function(){
+ var mask=document.querySelector(".mask");
+ var item=document.querySelector(".item");
+ var rightBox=document.querySelector(".right-box");
+ //  var mask=document.querySelectorAll(".mask");
+ // var item=document.querySelectorAll(".item");
+ // var rightBox=document.querySelectorAll(".right-box");
+ console.log(mask);
+ var flag=true;
+// for (var i = 0; i < mask.length; i++) {
+//     mask[i].onclick=function(){
+//     if (flag){
+//         flag=!flag;
+//         item[i].style.left='-0.9rem';
+//         rightBox[i].style.opacity="1";
+//         console(this);
+//     }
+//     else{
+//         flag=!flag;
+//         item[i].style.left='0';
+//         rightBox[i].style.opacity="0";
+
+//     }
+//    }
+// };
+
+ mask.onclick=function(){
+    if (flag){
+        flag=!flag;
+        item.style.left='-0.9rem';
+        rightBox.style.opacity="1";
+    }
+    else{
+        flag=!flag;
+        item.style.left='0';
+        rightBox.style.opacity="0";
+
+    }
+ }
+}
+</script>
 </html>

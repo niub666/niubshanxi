@@ -442,7 +442,14 @@ border-radius: 20px;
 	.wjy_yi_si{
 		margin-top:0.05rem;
 	}
-
+.wjy_si_er img {
+    width: 100%;
+    float: left;
+}
+.wjy_si_er{
+	margin-top:0.9rem;
+	padding: 0rem 0.9rem 0rem 1.3rem;
+}
 }
 .wjy_tiaoguo{
 	position: absolute;

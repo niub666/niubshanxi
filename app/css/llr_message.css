@@ -82,6 +82,7 @@ body {
   align-self: center;
   box-sizing: border-box;
   padding: 0.3rem  0.8rem;
+  margin: 0 auto;
   margin-top: 0.32rem;
 }
 .item .name {
@@ -133,10 +134,7 @@ body {
   padding: 0 0.5rem;
   display: flex;
   justify-content: space-between;
-  margin-top: 0.5rem;
-  position: fixed;
   width: 100%;
-  bottom: 0;
   box-sizing:border-box;
 }
 .footer .tab-list {
