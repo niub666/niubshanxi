@@ -115,6 +115,7 @@ body {
   border: 0;
 }
 .serch .right {
+  font-size:0;
   position: absolute;
   top: 0.20rem;
   right: 0;
@@ -170,6 +171,7 @@ body {
   color: #333;
 }
 .ping .right {
+  font-size:0;
   width: 0.5rem;
   height: 0.5rem;
 }

@@ -440,6 +440,7 @@ border-radius: 20px;
 	.wjy_yi_si{
 		margin-top:0.05rem;
 	}
+<<<<<<< HEAD
 .wjy_si_er img {
     width: 100%;
     float: left;
@@ -448,6 +449,16 @@ border-radius: 20px;
 	margin-top:0.9rem;
 	padding: 0rem 0.5rem 0rem 1rem;
 }
+=======
+	.wjy_si_er img {
+	    width: 100%;
+	    float: left;
+	}
+	.wjy_si_er{
+		margin-top:0.9rem;
+		// padding: 0rem 0.9rem 0rem 1.3rem;
+	}
+>>>>>>> cb42a69cde3d9d76734f79a74807e4fc90a77b4b
 }
 .wjy_tiaoguo{
 	position: absolute;

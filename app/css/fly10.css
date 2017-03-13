@@ -49,8 +49,9 @@ html,body{
 		float: left;
 	}
 	.yxm-nav .yxm-nav-title span img{
-		width: 100%;
+		width: 50%;
 		display: block;
+		margin: 0.1rem auto;
 	}
 	.yxm-nav .yxm-nav-title input{
 		width: 75%;
