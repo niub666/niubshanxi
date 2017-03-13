@@ -183,9 +183,6 @@
 	width: 100%;
 	height: 0.78rem;
 	background: #003EFF;
-	position: fixed;
-	left:0;
-	bottom:0;
 	display: flex;
 	justify-content:space-around;
 	padding-top: 0.08rem;
