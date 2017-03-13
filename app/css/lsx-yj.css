@@ -236,6 +236,7 @@ body{
   box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.2);
 }
 .show .imgbox {
+  height:2.33rem;
   width: 8rem;
 }
 .show .imgbox .img1 {
