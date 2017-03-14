@@ -102,7 +102,7 @@ header .txt{
     bottom: 1.78rem;
 }
 header .txt strong{
-    width: 0.7rem;
+    // width: 0.7rem;
     float: left;
     height: 0.43rem;
     font-size: 14px;

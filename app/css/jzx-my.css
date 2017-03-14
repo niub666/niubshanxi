@@ -80,13 +80,33 @@ header img{
     height: .55rem;
 }
 
-footer{
-    height: 1rem;position: fixed;bottom: 0;background: #0041FF;display: flex;justify-content: space-around;
-    align-items: center;width: 100%;
+// 页脚
+footer,footer ul,footer li{
+  box-sizing:border-box;
 }
-footer a{
-    display: block;height: 100%;
+footer ul{
+width: 100%;
+height: 100%;
+padding: 0.05rem 0.5rem;
+background: #003EFF;
+box-sizing:border-box;
 }
-footer a img{
-    width:.6rem;
+footer ul li{
+width: 0.6rem;
+height: 100%;
+float: left;
+margin-right: 0.86rem
+}
+footer ul li:nth-child(5){
+margin-right: 0;
+}
+footer ul li a{
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+footer ul li a img{
+  width: 100%;
+  height: 100%;
+  float: left;
 }

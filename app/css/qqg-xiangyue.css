@@ -81,7 +81,7 @@
     float: left;
     margin-left: 0.2rem;
 
-   font-size: 0.36rem;
+   font-size: 18px;
     color: #fff;
 }
 .qqg-header .qqg-head2 ul li:nth-child(5){
@@ -492,31 +492,33 @@
 }
 
 
-/*底部*/
-.qqg-footer{
-    width:100%;
-    height:1rem;
-    background: #003EFF;
-    position: fixed;
-    left: 0;
-    bottom:0;
+// 页脚
+footer,footer ul,footer li{
+  box-sizing:border-box;
 }
-.qqg-www{
-
-    width:0.6rem;
-    height:1rem;
-    margin-left: 0.55rem;
-
-    margin-top: -0.33rem;
-    float: left;
+footer ul{
+width: 100%;
+height: 100%;
+padding: 0.05rem 0.5rem;
+background: #003EFF;
+box-sizing:border-box;
 }
-.qqg-www a img{
-    width:0.55rem;
-    height:0.55rem;
+footer ul li{
+width: 0.6rem;
+height: 100%;
+float: left;
+margin-right: 0.86rem
 }
-.qqg-www a span{
-    display: block;
-    color: #fff;
-    font-size: 0.22rem;
-    margin-top: -0.25rem;
+footer ul li:nth-child(5){
+margin-right: 0;
+}
+footer ul li a{
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+footer ul li a img{
+  width: 100%;
+  height: 100%;
+  float: left;
 }
