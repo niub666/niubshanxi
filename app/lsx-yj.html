@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" id="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/base.css">
-    <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/lsx-yj.css">
+
+    <script src="js/rem.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+
     <title>游记</title>
 </head>
 <body>
@@ -140,15 +145,14 @@
     </section>
     <!--图片展示-->
     <section class="show">
-        <div class="imgbox">
-            <div class="img1">
-                <img src="images/lsx/img1.png" alt="">
-            </div>
-            <div class="img2">
-                <img src="images/lsx/img2.png" alt="">
-            </div>
-            <div class="img3">
-                <img src="images/lsx/img3.png" alt="">
+        <div class="swiper-container swiper-container-horizontal">
+            <div class="swiper-wrapper imgbox" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                <div class="swiper-slide img1" ><img src="images/lsx/img1.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img2.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img3.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img1.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img2.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img3.png" alt=""></div>
             </div>
         </div>
         <span>顺利抵达太原武宿机场</span>
@@ -160,15 +164,14 @@
         <span class="wen">2016.02.15 pm18:48</span>
     </section>
     <section class="show">
-        <div class="imgbox">
-            <div class="img1">
-                <img src="images/lsx/img1.png" alt="">
-            </div>
-            <div class="img2">
-                <img src="images/lsx/img2.png" alt="">
-            </div>
-            <div class="img3">
-                <img src="images/lsx/img3.png" alt="">
+        <div class="swiper-container swiper-container-horizontal">
+            <div class="swiper-wrapper imgbox" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                <div class="swiper-slide img1" ><img src="images/lsx/img1.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img2.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img3.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img1.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img2.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img3.png" alt=""></div>
             </div>
         </div>
         <span>顺利抵达太原武宿机场</span>
@@ -180,15 +183,14 @@
     <span class="wen">2016.02.15 pm18:48</span>
 </section>
     <section class="show">
-        <div class="imgbox">
-            <div class="img1">
-                <img src="images/lsx/img1.png" alt="">
-            </div>
-            <div class="img2">
-                <img src="images/lsx/img2.png" alt="">
-            </div>
-            <div class="img3">
-                <img src="images/lsx/img3.png" alt="">
+        <div class="swiper-container swiper-container-horizontal">
+            <div class="swiper-wrapper imgbox" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                <div class="swiper-slide img1" ><img src="images/lsx/img1.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img2.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img3.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img1.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img2.png" alt=""></div>
+                <div class="swiper-slide img1" ><img src="images/lsx/img3.png" alt=""></div>
             </div>
         </div>
         <span>顺利抵达太原武宿机场</span>
@@ -205,3 +207,11 @@
 </div>
 </body>
 </html>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30
+    });
+</script></script>

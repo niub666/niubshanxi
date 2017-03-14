@@ -236,14 +236,15 @@ body{
   box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.2);
 }
 .show .imgbox {
-  height:2.33rem;
-  width: 8rem;
+  height:2.73rem;
+  width: 18rem;
 }
 .show .imgbox .img1 {
   float: left;
   padding: 0.3rem 0.1rem 0.1rem 0.2rem;
-  width: 2.33rem;
+  width: 2.33rem!important;
   height: 2.33rem;
+  margin-right:0!important;
 }
 .show .imgbox .img1 img {
   width: 100%;
