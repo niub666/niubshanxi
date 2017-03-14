@@ -650,30 +650,33 @@ body {
   width: 100%;
   height: 100%;
 }
-/*页脚*/
-.footer {
-  background: #003EFF;
-  padding: 0 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 0.5rem;
+// 页脚
+footer,footer ul{
+  box-sizing:border-box;
 }
-.footer .tab-list {
-/*  display: flex;
-  flex-direction: column;*/
+footer ul{
+width: 100%;
+height: 100%;
+padding: 0.05rem 0.5rem;
+background: #003EFF;
+box-sizing:border-box;
 }
-.footer .tab-list  a{
-  display: flex;
-  flex-direction: column;
+footer ul li{
+width: 0.6rem;
+height: 100%;
+float: left;
+margin-right: 0.86rem
+}
+footer ul li:nth-child(5){
+margin-right: 0;
+}
+footer ul li a{
   width: 100%;
   height: 100%;
+  float: left;
 }
-.footer .tab-list img {
-  width: 0.60rem;
-  height: 0.66rem;
-}
-.footer .tab-list .text {
-  font-size: 0.22rem;
-  color: #fff;
-  text-align: center;
+footer ul li a img{
+  width: 100%;
+  height: 100%;
+  float: left;
 }

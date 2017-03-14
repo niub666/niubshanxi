@@ -8,7 +8,7 @@
 	width:100%;
 	height: 100%;
 	margin:0 auto;
-	font-size: 0.26rem;
+	font-size: 18px;
 	color: #fff;
 	text-align: center;
 	line-height: 0.88rem;
@@ -34,25 +34,47 @@
 	margin-top: 0.06rem;
 	background: url(../images/zyh_img/zyh_3.png)no-repeat center center/cover;
 }
+html,body {
+  	height: 100%;
+}
+body {
+ 	 display: flex;
+ 	 flex-direction: column;
+}
+header {
+  	flex: none;
+}
+section{
+	width: 100%;
+  	flex: auto;
+  	overflow: auto;
+ 	box-sizing: border-box;
+}
+
 /*头部结束*/
 /*二维码开始*/
 .zyh_code{
 	width: 100%;
-	height:12rem;
-	background: url(../images/zyh_img/zyh_bg4.png)no-repeat center center/cover;
+	height:auto;
+
+	overflow: hidden;
 }
+
+body{
+	background: url(../images/zyh_img/zyh_bg14.png)no-repeat center center;
+}
+
 .zyh_code .zyh_codes{
 	width: 100%;
 	height: 100%;
-	background:url(../images/zyh_img/zyh_bg14.png)no-repeat center center/cover; 
+	/*background:url(../images/zyh_img/zyh_bg14.png)no-repeat center center/cover; */
 	overflow: hidden;
 }
 .zyh_code .zyh_codes .zyh_scan{
 	width: 85%;
 	height: 6.43rem;
 	margin: 0 auto;
-	opacity: 1;
-	margin-top: 0.65rem;
+	margin-top: 0.1rem;
 	position: relative;
 }
 .zyh_code .zyh_codes .zyh_scan img{
@@ -111,17 +133,20 @@
 	font-size: 12px;
 	color: #000;
 	text-align: center;	
-	background: url(../images/zyh_img/zyh_bg6.png)no-repeat; 
+	/*background: url(../images/zyh_img/zyh_bg6.png)no-repeat; */
 	background-size: 8%;
 	margin-bottom: 0.1rem;
 }
+.zyh_code .zyh_codes .zyh_scans .zyh_hang ul .zyh_zhao img{
+	width: 8%;
+}
 .zyh_code .zyh_codes .zyh_scans .zyh_hang ul .zyh_nong{
-	width: 85%;
+	width: 87%;
 	height: 0.45rem;
 	margin: 0 auto;
 	font-size: 12px;
 	text-align: center;	
-	background: url(../images/zyh_img/zyh_bg7.png)no-repeat; 
+	/*background: url(../images/zyh_img/zyh_bg7.png)no-repeat; */
 	background-size: 8%;
 	margin-bottom: 0.1rem;
 }
@@ -135,7 +160,7 @@
 /*底部开始*/
 .zyh_code .zyh_foot{
 	width: 100%;
-	height: 3.25rem;
+	height: 1.8rem;
 	/*background: red;*/
 	margin-top: 2rem;
 }
