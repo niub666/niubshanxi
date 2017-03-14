@@ -89,7 +89,7 @@ footer {
 .zyh_show .zyh_nav{
 	width: 300%;
 	height: 100%;
-	margin-left: -6.2rem;
+	/*margin-left: -6.2rem;*/
 }
 .zyh_show .zyh_nav .zyh_navs{
 	width: 6.63rem;
@@ -101,7 +101,10 @@ footer {
 	display: block;
 	width: 100%;
 	height: 100%;
-	background: url(../images/zyh_img/zyh_5.png)no-repeat center center/cover;
+	/*background: url(../images/zyh_img/zyh_5.png)no-repeat center center/cover;*/
+}
+.zyh_show .zyh_nav .zyh_navs a img{
+	width: 100%;
 }
 /*展示结束*/
 /*详细信息开始*/

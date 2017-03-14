@@ -14,6 +14,14 @@ section{
   overflow: auto;
   box-sizing: border-box;
 }
+footer{
+	flex: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .zyh_top{
 	width: 100%;
@@ -53,123 +61,14 @@ section{
 	background: url(../images/zyh_img/zyh_3.png)no-repeat center center/cover;
 }
 /*头部结束*/
-/*玩法开始*/
-.zyh_link{
-	width: 100%;
-	height: 10rem;
-	overflow: auto;
-	position: relative;
-}
-.zyh_link .zyh_title{
-	width: 100%;
-	height: 0.95rem;
-	font-size: 18px;
-	color: #4254FF;
-	text-align: center;
-	line-height: 2rem;
-}
-.zyh_link .yuan{
-	background: blue;
-	text-align: center;
-	border-radius: 50%;
-	background: url(../images/zyh_img/zyh_07.png)no-repeat center center/cover;
-}
-.zyh_link .yuan img{
-	width: 100%;
-	height: 100%;
-	float: left;
-}
-.zyh_link .yuan a p{
-	position: absolute;
-	text-align: center;
-	width: 100%;
-}
-.zyh_link .yuan a{
-	display: block;
-	font-size: 23px;
-	color: #fff;
-	text-align: center;
-}
-.zyh_link .zyh_areg{
-	width: 1.85rem;
-	height: 1.85rem;
-	position: absolute;
-	top:1.94rem;
-	left:2.25rem;
-	line-height: 1.85rem;
-}
-.zyh_link .zyh_golf{
-	width: 2.2rem;
-	height: 2.2rem;
-	position: absolute;
-	top:1.89rem;
-	right:0.2rem;
-	line-height: 2.2rem;
-}
-.zyh_link .zyh_jump{
-	width: 1.92rem;
-	height: 1.92rem;
-	position: absolute;
-	top:3.5rem;
-	left:0.4rem;
-	line-height: 1.92rem;
-}
-.zyh_link .zyh_dive{
-	width:2.34rem ;
-	height: 2.34rem;
-	position: absolute;
-	top:4rem;
-	left:2.6rem;
-	line-height: 2.34rem;
-	background: url(../images/zyh_img/zyh_08.png)no-repeat center center/cover;
-}
-.zyh_link .zyh_fire{
-	width: 1.56rem;
-	height:1.56rem ;
-	position: absolute;
-	top:4.2rem;
-	right:0.64rem;
-	line-height:1.56rem ;
-}
-.zyh_link .zyh_drift{
-	width:1.75rem ;
-	height:1.75rem ;
-	position: absolute;
-	top:6rem;
-	left:1rem;
-	line-height:1.75rem ;
-}
-.zyh_link .zyh_foot{
-	width:2rem ;
-	height:2rem ;
-	position: absolute;
-	top:6.8rem;
-	left:3rem;
-	line-height:2rem ;
-}
-.zyh_link .zyh_rock{
-	width:1.95rem ;
-	height:1.95rem ;
-	position: absolute;
-	top:6.1rem;
-	right:0.3rem;
-	line-height:1.95rem ;
-}
-.zyh_link .zyh_camp{
-	width:1.75rem ;
-	height:1.75rem ;
-	position: absolute;
-	top:8rem;
-	left:0.8rem;
-	line-height:1.75rem ;
-}
-/*玩法结束*/
+
 /*选择开始*/
 .zyh_str{
 	width: 100%;
-	height: 1.6rem;
+	height: 1rem;
 	position: relative;
-	bottom: 0;
+	/*bottom: 0;*/
+	top:-50px;
 }
 .zyh_str a{
 	font-size: 15px;
@@ -187,8 +86,8 @@ section{
 	right:1.5rem;
 }
 .zyh_str .zyh_ning{
-	width: 1.55rem;
-	height: 1.55rem;
+	width: 1.45rem;
+	height: 1.45rem;
 	background:url(../images/zyh_img/zyh_06.png)no-repeat center center/cover;
 	position: absolute;
 	top:0rem;
@@ -202,3 +101,122 @@ section{
 	line-height: 1.55rem;
 	color: #4254FF;
 }
+section{
+	overflow: auto; 
+}
+
+
+
+
+.zq-wanfa{
+    width: 4.05rem;
+    height: 0.5rem;
+    margin: 0.2rem auto;
+    position: relative;
+    line-height: 0.5rem;
+    font-size: 14px;
+    text-align: center;
+    color: #3867fa;
+}
+.zq-wanfa .zq-wanfa-tu{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: -0.1rem;
+}
+.zq-wanfa .zq-wanfa-tu>img{
+   width: 100%;
+}
+/*$玩法结束*/
+/*$挑选列表开始*/
+.zq-content{
+    width: 6.95rem;
+    /*height: 7rem;*/
+    margin: 0 auto;
+    position: relative;
+}
+.zq-yq{
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+}
+.zq-content .zq-yq.active{
+    background-image: url(../images/zyh_img/zq-y7.png);
+}
+.zq-content .sm-box{
+    width: 1.8rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    left: 2rem;
+    top: 0;
+    background: url(../images/zyh_img/zq-y1.png)no-repeat center center/cover;
+}
+.zq-content .gef-box{
+    width: 2.11rem;
+    height: 2.11rem;
+    line-height: 2.11rem;
+    left: 4rem;
+    top: 0.2rem;
+    background: url(../images/zyh_img/zq-y1.png)no-repeat center center/cover;
+}
+.zq-content .ts-box{
+    width: 2.11rem;
+    height: 2.11rem;
+    line-height: 2.11rem;
+    left: 0.1rem;
+    top: 1rem;
+    background: url(../images/zyh_img/zq-y1.png)no-repeat center center/cover;
+}
+.zq-content .qs-box{
+    width: 2.3rem;
+    height: 2.3rem;
+    line-height: 2.3rem;
+    left: 2.5rem;
+    top: 2rem;
+    background: url(../images/zyh_img/zq-y1.png)no-repeat center center/cover;
+}
+.zq-content .sj-box{
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    left: 5rem;
+    top: 2.5rem;
+    background: url(../images/zyh_img/zq-y3.png)no-repeat center center/cover;
+}
+.zq-content .pl-box{
+    width: 1.65rem;
+    height: 1.65rem;
+    line-height: 1.65rem;
+    left: 1rem;
+    top: 3.5rem;
+    background: url(../images/zyh_img/zq-y4.png)no-repeat center center/cover;
+}
+.zq-content .tb-box{
+    width: 2.11rem;
+    height: 2.11rem;
+    line-height: 2.11rem;
+    left: 2.4rem;
+    top: 4.6rem;
+    background: url(../images/zyh_img/zq-y5.png)no-repeat center center/cover;
+}
+.zq-content .py-box{
+    width: 2.11rem;
+    height: 2.11rem;
+    line-height: 2.11rem;
+    left: 4.6rem;
+    top: 4.8rem;
+    background: url(../images/zyh_img/zq-y6.png)no-repeat center center/cover;
+}
+.zq-content .ly-box{
+    width: 1.65rem;
+    height: 1.65rem;
+    line-height: 1.65rem;
+    left: 0.5rem;
+    top:5.5rem;
+    background: url(../images/zyh_img/zq-y5.png)no-repeat center center/cover;
+}
+/*$挑选列表结束*/

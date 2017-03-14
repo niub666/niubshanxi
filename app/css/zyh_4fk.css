@@ -55,22 +55,26 @@ section{
 /*二维码开始*/
 .zyh_code{
 	width: 100%;
-	height:100%;
-	background: url(../images/zyh_img/zyh_bg4.png)no-repeat center center/cover;
-	overflow: auto;
+	height:auto;
+
+	overflow: hidden;
 }
+
+body{
+	background: url(../images/zyh_img/zyh_bg14.png)no-repeat center center;
+}
+
 .zyh_code .zyh_codes{
 	width: 100%;
 	height: 100%;
-	background:url(../images/zyh_img/zyh_bg14.png)no-repeat center center/cover; 
+	/*background:url(../images/zyh_img/zyh_bg14.png)no-repeat center center/cover; */
 	overflow: hidden;
 }
 .zyh_code .zyh_codes .zyh_scan{
 	width: 85%;
 	height: 6.43rem;
 	margin: 0 auto;
-	opacity: 1;
-	margin-top: 0.65rem;
+	margin-top: 0.1rem;
 	position: relative;
 }
 .zyh_code .zyh_codes .zyh_scan img{
@@ -156,7 +160,7 @@ section{
 /*底部开始*/
 .zyh_code .zyh_foot{
 	width: 100%;
-	height: 3.25rem;
+	height: 1.8rem;
 	/*background: red;*/
 	margin-top: 2rem;
 }

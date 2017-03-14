@@ -56,12 +56,11 @@ section{
 /*付款开始*/
 .zyh_pay{
 	width: 100%;
-	height: 11rem;
 }
 .zyh_pay h3{
 	font-size: 18px;
 	color: #396CFF;
-	margin-top: 1.03rem;
+	margin-top: 0.8rem;
 	text-align: center;
 }
 .zyh_pay p{
@@ -84,7 +83,7 @@ section{
 	height: 0.93rem;
 	/*background: red;*/
 	margin:0 auto;
-	margin-top: 1.35rem;
+	margin-top: 0.8rem;
 	position: relative;
 }
 .zyh_pay .zyh_move a img{

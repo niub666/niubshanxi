@@ -24,78 +24,60 @@
 	
 	<!-- 头部结束 -->
 	<!-- 玩法开始 -->
-	<section>
-		<div class="zyh_link">
-			<div class="zyh_title">
-				<img src="images/zyh_img/zyh_005.png" alt="">
-				<span>选择您喜欢的玩法</span>
-				<img src="images/zyh_img/zyh_004.png" alt="">
-			</div>
-
-
-			<div class="zyh_areg yuan">
-				<a href="">
-					<img src="images/zyh_img/zyh_09.png" alt="">
-					<p>沙漠</p>
-				</a>
-			</div>
-			<div class="zyh_golf yuan">
-				<a href="">
-					<img src="images/zyh_img/zyh_09.png" alt="">
-					<p>高尔夫</p>
-				</a>
-			</div>
-			<div class="zyh_jump yuan">
-				<a href="">
-					<img src="images/zyh_img/zyh_09.png" alt="">
-					<p>跳伞</p>	
-				</a>
-			</div>
-			<div class="zyh_dive yuan">
-				<a href="">潜水</a>
-			</div>
-			<div class="zyh_fire yuan">
-				<a href="">
-					<img src="images/zyh_img/zyh_09.png" alt="">
-					<p>	射击</p>
-				</a>
-			</div>
-			<div class="zyh_drift yuan">
-				<a href="">
-					<img src="images/zyh_img/zyh_09.png" alt="">
-					<p>漂流</p>	
-				</a>
-			</div>
-			<div class="zyh_foot yuan">
-				<a href="">
-					<img src="images/zyh_img/zyh_09.png" alt="">
-					<p>徒步</p>	
-				</a>
-			</div>
-			<div class="zyh_rock yuan">
-				<a href="">
-					<img src="images/zyh_img/zyh_09.png" alt="">
-					<p>攀岩</p>	
-				</a>
-			</div>
-			<div class="zyh_camp yuan">
-				<a href="">
-					<img src="images/zyh_img/zyh_09.png" alt="">
-					<p>露营</p>	
-				</a>
-			</div>
+	<section center-section>
+		<div class="zq-wanfa">
+		    <div class="zq-wanfa-tu">
+		        <img src="images/zyh_img/zq-bigheaad.png" alt="">
+		    </div>
+		    选择您喜欢的方法
 		</div>
+		<!--玩法结束-->
+		<!--挑选列表开始-->
+		<div class="zq-content">
+		    <div class="sm-box zq-yq">沙漠</div>
+		    <div class="gef-box zq-yq">高尔夫</div>
+		    <div class="ts-box zq-yq">跳伞</div>
+		    <div class="qs-box zq-yq active">潜水</div>
+		    <div class="sj-box zq-yq">射击</div>
+		    <div class="pl-box zq-yq">漂流</div>
+		    <div class="tb-box zq-yq">徒步</div>
+		    <div class="py-box zq-yq">攀岩</div>
+		    <div class="ly-box zq-yq">露营</div>
+		</div>
+		<!--挑选列表结束-->
 	</section>
 	
 	<!-- 玩法结束 -->
-	<!-- 选择开始 -->
-	<div class="zyh_str">
-		<a href="" class="zyh_cong">重置</a>
-		<div class="zyh_ning">
-			<p href="">您</p>
+
+	<footer>
+			<!-- 选择开始 -->
+		<div class="zyh_str">
+			<a href="" class="zyh_cong">重置</a>
+			<div class="zyh_ning">
+				<p href="">您</p>
+			</div>
+			<a href="zyh_4hdxq.html " class="zyh_xia">下一步</a>
 		</div>
-		<a href="zyh_4hdxq.html " class="zyh_xia">下一步</a>
-	</div>
+	</footer>
+
 </body>
 <script src="js/rem.js"></script>
+<script src="js/jquery.min.js"></script>
+<script>
+    var zqyq = $(".zq-yq");
+//    for(var i = 0;i<zqyq.length;i++){
+
+        zqyq.on('touchstart', function () {
+            if($(this).hasClass("active")){
+                $(this).removeClass("active" );
+            }else{
+                $(this).addClass("active" );
+            }
+        });
+//    }
+    var xybleft = $('.footer-xyb-left');
+    xybleft.on('touchstart', function () {
+        zqyq.removeClass("active");
+    })
+</script>
 </html>
