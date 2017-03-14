@@ -235,6 +235,7 @@ body{
   overflow: hidden;
   box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.2);
 }
+
 .show .imgbox {
   height:2.73rem;
   width: 18rem;
@@ -271,8 +272,10 @@ body{
   height: 100%;
 }
 .show span {
+  display: block;
   padding-left: 0.2rem;
-  padding-top: 0.1rem;
+  padding-top: 0.2rem;
+  font-size:14px;
 }
 .show1 {
   margin-top: 0.5rem;
