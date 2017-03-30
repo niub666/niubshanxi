@@ -1,4 +1,4 @@
-﻿.cent_box {
+.cent_box {
   width: 100%;
   height: auto;
   position: relative;
@@ -88,7 +88,6 @@
   z-index: 99999;
 }
 .jia_box .jia {
-  display:block;
   position: relative;
   z-index: 2;
   bottom: .12rem;
@@ -108,8 +107,7 @@
 .jia_box .jia_cent .jia2 {
   left: 50%;
   margin-left: -0.365rem;
-  // bottom: -6.965rem;
-  bottom: -.4rem;
+  bottom: -6.965rem;
   width: .73rem;
   height: .73rem;
   background: url(../images/wqf-jia2.png) no-repeat 100% 100% / cover;
